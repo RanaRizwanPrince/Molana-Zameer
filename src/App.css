@@ -1,42 +1,321 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container-fluid {
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+    --brown: #DB9933;
+    --green: #3ABE65;
+    --gray: #C6C6C6;
+    --black: #000;
+    --white: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: h;
+    src: url("./assets/Funt/h.ttf");
 }
 
-.card {
-  padding: 2em;
+@font-face {
+    font-family: p;
+    src: url("./assets/Funt/p.otf");
 }
 
-.read-the-docs {
-  color: #888;
+h1,
+h2,
+h3 {
+    font-family: h;
+}
+
+p {
+    font-family: p;
+}
+
+.navbar-nav .nav-link {
+    padding: 8px 15px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 700;
+    color: var(--white) !important;
+    background-color: var(--brown);
+    border-radius: 2px;
+}
+
+.navbar {
+    padding: 0 !important;
+    background-color: var(--black) !important;
+
+    .navbar-toggler {
+        img {
+            width: 45px;
+            color: var(--white);
+        }
+    }
+
+    .navbar-brand {
+        img {
+            width: 90px;
+        }
+    }
+
+    .nav-link {
+        color: var(--white);
+        border: 1px solid var(--white);
+
+        &:hover {
+            color: var(--white);
+        }
+    }
+
+    .navicon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 0px;
+
+        .link {
+            background-color: var(--white);
+            padding: 3px;
+            color: var(--black);
+            border-radius: 50px;
+            margin: 0px 15px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.head {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: url("https://ik.imagekit.io/hmdcfponi/Home/banner2?updatedAt=1758706624346");
+}
+
+@media (max-width:500px) {
+    .head {
+        height: auto;
+        padding: 100px 0px;
+        background-attachment: fixed;
+    }
+}
+
+.home1 {
+    padding: 50px 0px;
+
+    h1,
+    h3 {
+        color: var(--brown);
+    }
+
+    .img {
+        animation: bis 1s linear infinite alternate;
+    }
+
+    .link {
+        background-color: var(--brown);
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 500;
+        color: var(--white);
+    }
+}
+
+@keyframes bis {
+    to {
+        transform: scale(1.0);
+    }
+
+    from {
+        transform: scale(1.1);
+    }
+}
+
+.home2 {
+    padding: 30px 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(#DB9933e6, rgba(0, 0, 0, 0)), url("https://ik.imagekit.io/hmdcfponi/Home/service-bg?updatedAt=1758354594442");
+    color: var(--white);
+
+    img {
+        animation: bis 1s linear infinite alternate;
+    }
+
+    .box {
+        background-color: var(--white);
+        padding: 30px 0px;
+        background-repeat: no-repeat;
+        text-align: center;
+        border-radius: 10px;
+        border: double 5px var(--brown);
+        transition: ease-in-out 0.1s;
+
+        h3,
+        p {
+            color: var(--brown);
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.home3 {
+    padding: 30px 0px;
+
+    .img {
+        animation: bis 1s linear infinite alternate;
+    }
+
+    .box {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 0px 0px 10px 10px;
+        padding: 10px;
+        transition: 0.30s ease-in-out;
+
+        h2 {
+            color: var(--brown);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        &:hover {
+            background-color: var(--brown);
+            transform: translateY(-50px);
+
+            h2 {
+                color: var(--white);
+            }
+        }
+    }
+}
+
+.Pillars {
+    text-align: center;
+    padding: 50px 0px;
+
+    h1 {
+        color: var(--brown);
+    }
+
+    .box {
+        background-color: #FCF6EE;
+        border-radius: clamp(12px, 0.833vw, 32px);
+        border: 1px solid #1E1F20;
+        padding: 1.25vw;
+        background-image: url("https://ik.imagekit.io/hmdcfponi/Home/Union?updatedAt=1758701839720");
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: ease-in-out 0.4s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.counter {
+    text-align: center;
+    padding: 50px 0px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--white);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://ik.imagekit.io/hmdcfponi/Footer?updatedAt=1758786143583");
+
+    .box {
+        border: 5px double var(--brown);
+        padding: 30px 0px;
+        border-radius: 20px;
+
+        .icon {
+            background-color: var(--brown);
+            color: var(--white);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            font-size: 30px;
+            border-radius: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: var(--brown);
+            padding: 20px 0px;
+        }
+    }
+}
+
+.gallery {
+    padding: 30px 0px;
+    text-align: center;
+
+    h1 {
+        color: var(--brown);
+    }
+}
+
+.footer {
+    color: var(--white);
+    width: 100%;
+    padding: 30px 0px;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("https://ik.imagekit.io/hmdcfponi/Footer?updatedAt=1758786143583");
+
+    h1 {
+        color: var(--brown);
+    }
+
+    img {
+        width: 50%;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            display: flex;
+            color: var(--white);
+            border: 1px solid var(--white);
+            align-items: center;
+            border-radius: 50px;
+            justify-content: center;
+            background-color: var(--brown);
+        }
+    }
+
+    .link {
+        color: var(--white);
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 2px solid var(--white);
+        }
+    }
 }

@@ -110,12 +110,12 @@ const styles = {
     },
     bgPath: {
         fill: "none",
-        stroke: "#eee",
+        stroke: "#C6C6C6",
         strokeWidth: 2.8,
     },
     progressPath: {
         fill: "none",
-        stroke: "#ff0099",
+        stroke: "#DB9933",
         strokeWidth: 2.8,
         strokeLinecap: "round",
         transition: "stroke-dasharray 0.3s ease",
@@ -127,7 +127,7 @@ const styles = {
         transform: "translate(-50%, -50%)",
         fontSize: "28px",
         fontWeight: "bold",
-        color: "#555",
+        color: "#DB9933",
     },
     flower: {
         position: "fixed",

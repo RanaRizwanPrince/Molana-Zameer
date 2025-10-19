@@ -24,7 +24,7 @@ const Libriri = () => {
     return (
         <>
             <section className="Libriri1 text-center">
-                <img src="https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/1?updatedAt=1759906546566" alt="Footer Logo" className="img-fluid" />
+                <img src="https://ik.imagekit.io/hmdcfponi/Libriri/logo?updatedAt=1760341613173" alt="Footer Logo" className="img-fluid" />
                 <h1>Explore the World Molana Zameer of Knowledge with Library</h1>
                 <p> Libriri brings you closer to books, stories, and knowledge that inspire growth, spark curiosity, and brighten every day </p>
                 <div className="box">

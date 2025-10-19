@@ -35,11 +35,13 @@ const Footer = () => {
                             <h1>Quick Links</h1>
                             <NavLink className="link" to="/">✔ Home</NavLink> <br />
                             <NavLink className="link" to="/About">✔ About Us</NavLink> <br />
-                            <NavLink className="link" to="">✔ Services</NavLink> <br />
-                            <NavLink className="link" to="">✔ Donations</NavLink> <br />
-                            <NavLink className="link" to="">✔ Projects</NavLink> <br />
+                            <NavLink className="link" to="">✔ Zameer Libriri</NavLink> <br />
+                            <NavLink className="link" to="">✔ Bazam Zameer</NavLink> <br />
+                            <NavLink className="link" to="">✔ Biogarafi</NavLink> <br />
                             <NavLink className="link" to="">✔ Blogs</NavLink> <br />
-                            <NavLink className="link" to="">✔ Contact</NavLink>
+                            <NavLink className="link" to="">✔ Pod Cast</NavLink><br />
+                            <NavLink className="link" to="">✔ Team</NavLink><br />
+                            <NavLink className="link" to="">✔ Contact Us</NavLink>
                         </div>
                         <div className="col-lg-3 col-md-6 my-3" data-aos="fade-up">
                             <h1>Our Services</h1>

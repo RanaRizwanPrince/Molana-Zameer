@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             <section className="About1 text-center">
-                <h1>About Us</h1>
+                <img src="https://ik.imagekit.io/hmdcfponi/About/fab?updatedAt=1759951376273" className="img-fluid" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laudantium nostrum iure consectetur dolor tempore?</p>
             </section>
             <section className="about2">
@@ -76,6 +76,9 @@ const About = () => {
             </section>
             <section className="about4">
                 <div className="container-fluid">
+                    <center className='pb-3'>
+                        <img src="https://ik.imagekit.io/hmdcfponi/About/bismilallah?updatedAt=1759951560984" className="img-fluid" />
+                    </center>
                     <div className="row">
                         <div className="col-lg-7 col-md-6 my-2">
                             <div className="content">

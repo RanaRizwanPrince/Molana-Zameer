@@ -188,6 +188,7 @@ p {
     justify-content: center;
     text-align: center;
     width: 100%;
+    background-size: cover;
     height: 100vh;
     background-position: center;
     background-image: url("https://ik.imagekit.io/hmdcfponi/Home/banner2?updatedAt=1758706624346");
@@ -415,8 +416,9 @@ p {
     background-position: center;
     width: 100%;
     color: var(--brown);
-    height: 50vh;
     display: flex;
+    margin-top: 65px;
+    padding: 70px 0px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -743,7 +745,7 @@ p {
     transition: transform 0.3s ease;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://istiqbal-react.wpolive.com/static/media/img.66bc2c7d15c59fe8f042.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://istiqbal-react.wpolive.com/static/media/img.66bc2c7d15c59fe8f042.jpg");
 }
 
 .author-card:hover {
@@ -857,4 +859,89 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.Regestration1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("https://nauthemes.net/html/jamia/assets/images/resources/slide1.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    color: var(--brown);
+    height: 77vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Regestration2 {
+
+    .content {
+        text-align: center;
+        width: 70%;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .box {
+        background-color: var(--brown);
+        padding: 30px 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+
+.Regestration3 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 2.9), rgba(255, 255, 255, 0.0)), url("https://ik.imagekit.io/hmdcfponi/Regestration/Our-Center?updatedAt=1760517849311");
+    padding: 150px 0px;
+    background-position: center;
+}
+
+.Regestration4 {
+    padding: 30px 5px;
+    background-image: url("https://themelooper.com/html/salat/images/our-vision-bg.jpg");
+    background-attachment: fixed;
+
+    .box {
+        border: 2px solid var(--brown);
+        color: var(--brown);
+        padding: 30px;
+        border-radius: 10px;
+        transition: 0.90s ease-in-out;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+
+        h3 {
+            margin-top: 10px;
+        }
+
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+
+    .icon {
+        border: 2px solid var(--brown);
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.membershipform {
+    h3 {
+        color: var(--brown);
+    }
+
+    button {
+        background-color: var(--brown);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        width: 100%;
+        color: var(--white);
+    }
 }

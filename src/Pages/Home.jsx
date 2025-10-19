@@ -99,10 +99,12 @@ const Home = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 my-2 text-center">
                             <img data-aos="fade-up" src="https://ik.imagekit.io/hmdcfponi/Home/about?updatedAt=1758351999888" className='img-fluid' alt="About Image 02" />
+                            {/* <img data-aos="fade-up" src="https://ik.imagekit.io/hmdcfponi/Regestration/main-right?updatedAt=1760512911427" className="img-fluid" /> */}
                         </div>
                     </div>
                 </div>
             </section>
+            <img src="./img/1.jpg" className="w-100" />
             <section className="home2">
                 <div className="container-fluid">
                     <div className="col-lg-6 offset-lg-3 text-center">

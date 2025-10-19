@@ -22,6 +22,8 @@ import Preloader from './Components/Preloader';
 import PopupAlert from "./Components/Popupalert";
 import ScrollToTop from "./Components/ScrollToTop";
 import Contact from "./Pages/Contact";
+import Regestration from "./Pages/Regestration";
+import Ansar_Shabbir from "./Pages/Ansar_Shabbir";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -47,7 +49,9 @@ function App() {
         <Route path='/Biogarafi' element={<Biogarafi />} />
         <Route path='/Pod_Cast' element={<Pod_Cast />} />
         <Route path='/Team' element={<Team />} />
-        <Route path="//Contact" element={<Contact />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Regestration" element={<Regestration />} />
+        <Route path="/Ansar_Shabbir" element={<Ansar_Shabbir />} />
       </Routes>
       <TopToBottom />
       <Footer />

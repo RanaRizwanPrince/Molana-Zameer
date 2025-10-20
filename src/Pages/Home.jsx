@@ -8,29 +8,20 @@ import { AiFillProduct } from "react-icons/ai";
 const Home = () => {
     const Home3 = [
         {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/Service/1?updatedAt=1758360780615",
-            h1: "Quran Learning",
-            paragraph: "This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1760950354427",
+            pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
+            h1: "1st Position Holder",
+            paragraph: "Heartiest congratulations to the 1st Position Holder! Your outstanding achievement earns you a brand-new, powerful Laptop for future success.",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/Service/2?updatedAt=1758360780222",
-            h1: "Mosque Development",
-            paragraph: "This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1760950354427",
+            pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
+            h1: "2st Position Holder",
+            paragraph: "Congratulations to the brilliant 2nd Position Holder! We honor your hard work by presenting you with a state-of-the-art Laptop.",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/Service/3?updatedAt=1758360780348",
-            h1: "Islamic Center",
-            paragraph: "This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,",
-        }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/Service/3?updatedAt=1758360780348",
-            h1: "Marriage Islamic",
-            paragraph: "This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,",
-        }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/Service/5?updatedAt=1758360780443",
-            h1: "Funeral Services",
-            paragraph: "This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,",
-        }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/Service/6?updatedAt=1758360780173",
-            h1: "Funeral Services",
-            paragraph: "This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1760950354427",
+            pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
+            h1: "3st Position Holder",
+            paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
         },
     ]
     return (
@@ -86,6 +77,38 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <section className="qari">
+                <div className="container-fluid">
+                    <h1 data-aos="fade-up">Our Honorable Scholars & Guests</h1>
+                    <p data-aos="fade-up">We are deeply honored to welcome the respected scholars who will enlighten us with their words of wisdom. Their presence adds immense spiritual value to our event and strengthens our connection to the teachings of Islam.</p>
+                    <div className="row">
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                            <div className="box">
+                                <img src="https://ik.imagekit.io/hmdcfponi/1?updatedAt=1760987540111" className="img-fluid img-thumbnail" />
+                                <h5>Mufti Abdul Wahid Qureshi</h5>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                            <div className="box">
+                                <img src="https://ik.imagekit.io/hmdcfponi/2?updatedAt=1760987538726" className="img-fluid img-thumbnail" />
+                                <h5>Mufti Shabbir Ahmed Usmani</h5>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                            <div className="box">
+                                <img src="https://ik.imagekit.io/hmdcfponi/3?updatedAt=1760987538793" className="img-fluid img-thumbnail" />
+                                <h5>Mufti Mahmoodul Hassan Shah Sahib</h5>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                            <div className="box">
+                                <img src="https://ik.imagekit.io/hmdcfponi/4?updatedAt=1760987538105" className="img-fluid img-thumbnail" />
+                                <h5>Hazrat Maulana Tayyab Qasmi</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="home1">
                 <div className="container-fluid">
                     <div className="row d-flex align-items-center">
@@ -104,7 +127,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <img src="./img/1.jpg" className="w-100" />
+            <img src="./img/1.jpg" className="w-100" data-aos="fade-up" />
             <section className="home2">
                 <div className="container-fluid">
                     <div className="col-lg-6 offset-lg-3 text-center">
@@ -154,18 +177,19 @@ const Home = () => {
             <section className="home3">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-6 offset-lg-3 text-center">
+                        <div className=" text-center">
                             <img data-aos="flip-left" src="https://ik.imagekit.io/hmdcfponi/Home/title?updatedAt=1758351999181" alt="Islamic Zameer" className='img-fluid img' />
-                            <h1 data-aos="flip-right">Our Zameer Scholar</h1>
-                            <p data-aos="flip-left">Molana Zameer inspires hearts with wisdom, guiding people towards faith, peace, and the true essence of spirituality.</p>
+                            <h1 data-aos="flip-right">The Spotlight is On! Meet Our Top Zameer Scholars & Competition Winners!</h1>
+                            <p data-aos="flip-left">We celebrate the intellect, dedication, and eloquence of the participants! This section is dedicated to honoring the exceptional individuals who demonstrated profound skill and wisdom in our event. Congratulations to the 1st, 2nd, and 3rd Position Holders—you truly embody the spirit of learning and guidance championed by Maulana Zameer. Stay tuned as we proudly reveal the names and achievements of these winning scholars who now stand as beacons of inspiration for our community!</p>
                         </div>
                         {Home3.map((data, index) => (
                             <>
                                 <div key={index} className="col-lg-4 col-md-6 my-2">
                                     <img src={data.img} className='w-100' data-aos="flip-right" />
-                                    <div className="box" data-aos="flip-left">
+                                    <div className="box" data-aos="fade-up">
+                                        <img src={data.pro} data-aos="flip-right" />
                                         <h2>{data.h1}</h2>
-                                        <p>This is Photoshop's version of Lorem Ipsum. proin gravida liton mia velit auctor aliquet. Aenean sollicitudin,</p>
+                                        <p>{data.paragraph}</p>
                                     </div>
                                 </div>
                             </>
@@ -216,16 +240,16 @@ const Home = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Islamic%20Institute%20Gallery/1?updatedAt=1758710235012" alt="Institute Gallery" className='img-fluid img-thumbnail' />
+                            <img src="https://ik.imagekit.io/hmdcfponi/Home/Gallery/1?updatedAt=1760958129028" alt="Institute Gallery" className='img-fluid img-thumbnail' />
                         </div>
                         <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Islamic%20Institute%20Gallery/2?updatedAt=1758784925474" alt="Institute Gallery" className='img-fluid img-thumbnail' />
+                            <img src="https://ik.imagekit.io/hmdcfponi/Home/Gallery/2?updatedAt=1760958259805" alt="Institute Gallery" className='img-fluid img-thumbnail' />
                         </div>
                         <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Islamic%20Institute%20Gallery/3?updatedAt=1758784961692" alt="Institute Gallery" className='img-fluid img-thumbnail' />
+                            <img src="https://ik.imagekit.io/hmdcfponi/Home/Gallery/3?updatedAt=1760958369772" alt="Institute Gallery" className='img-fluid img-thumbnail' />
                         </div>
                         <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Islamic%20Institute%20Gallery/4?updatedAt=1758784961819" alt="Institute Gallery" className='img-fluid img-thumbnail' />
+                            <img src="https://ik.imagekit.io/hmdcfponi/Home/Gallery/4?updatedAt=1760958515228" alt="Institute Gallery" className='img-fluid img-thumbnail' />
                         </div>
                     </div>
                 </div>

@@ -191,7 +191,7 @@ p {
     background-size: cover;
     height: 100vh;
     background-position: center;
-    background-image: url("https://ik.imagekit.io/hmdcfponi/Home/banner2?updatedAt=1758706624346");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Darul_Uloom_Deoband.jpg/1200px-Darul_Uloom_Deoband.jpg");
 }
 
 @media (max-width:500px) {
@@ -273,18 +273,27 @@ p {
         animation: bis 1s linear infinite alternate;
     }
 
+
     .box {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 0px 0px 10px 10px;
         padding: 10px;
         transition: 0.30s ease-in-out;
+        position: relative;
+        border-top: 2px solid var(--white);
 
         h2 {
             color: var(--brown);
         }
 
         img {
-            width: 100%;
+            border-top: 2px solid var(--white);
+            border-left: 2px solid var(--white);
+            width: 30%;
+            position: absolute;
+            top: -125%;
+            border-radius: 100px 0px 0px 0px;
+            right: 0%;
         }
 
         &:hover {
@@ -295,6 +304,34 @@ p {
                 color: var(--white);
             }
         }
+    }
+}
+
+.qari {
+    padding: 30px 0px;
+
+    .box {
+        position: relative;
+        transition: 0.20s ease-in-out;
+
+        h5 {
+            text-align: center;
+            top: 0%;
+            left: 0%;
+            padding: 10px 20px;
+            background-color: var(--brown);
+            border-radius: 0px 0px 30px 0px;
+            position: absolute;
+            color: var(--white);
+        }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    h1 {
+        color: var(--brown);
     }
 }
 
@@ -371,7 +408,7 @@ p {
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("https://ik.imagekit.io/hmdcfponi/Footer?updatedAt=1758786143583");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("https://ik.imagekit.io/hmdcfponi/Home/banner2?updatedAt=1760960663330");
 
     h1 {
         color: var(--brown);
@@ -633,8 +670,9 @@ p {
 }
 
 .Bazam_Zameer1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://ik.imagekit.io/hmdcfponi/About/banner?updatedAt=1758883843727");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("https://enews.hamariweb.com/wp-content/uploads/2023/12/327440458_913890006715598_5538819289840092146_n.jpg");
     background-position: center;
+    background-size: cover;
     width: 100%;
     color: var(--brown);
     margin-top: 60px;
@@ -861,32 +899,19 @@ p {
     flex-direction: column;
 }
 
-.Regestration1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("https://nauthemes.net/html/jamia/assets/images/resources/slide1.jpg");
-    width: 100%;
+.Rhead {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://ik.imagekit.io/hmdcfponi/Libriri/01?updatedAt=1759477308951");
+    background-position: center;
     background-attachment: fixed;
+    width: 100%;
     color: var(--brown);
-    height: 77vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
+    height: 70vh;
+    margin-top: 60px;
     justify-content: center;
-}
-
-.Regestration2 {
-
-    .content {
-        text-align: center;
-        width: 70%;
-        padding: 50px 0px 0px 0px;
-    }
-
-    .box {
-        background-color: var(--brown);
-        padding: 30px 20px;
-        text-align: center;
-        border-radius: 10px;
-    }
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .Regestration3 {

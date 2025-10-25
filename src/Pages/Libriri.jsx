@@ -26,7 +26,7 @@ const Libriri = () => {
             <section className="Libriri1 text-center">
                 <img src="https://ik.imagekit.io/hmdcfponi/Libriri/logo?updatedAt=1760341613173" alt="Footer Logo" className="img-fluid" />
                 <h1>Explore the World Molana Zameer of Knowledge with Library</h1>
-                <p> Libriri brings you closer to books, stories, and knowledge that inspire growth, spark curiosity, and brighten every day </p>
+                <p className='lead'>Libriri brings you closer to books, stories, and knowledge that inspire growth, spark curiosity, and brighten every day </p>
                 <div className="box">
                     {/* Tabs */}
                     <div style={{ display: "flex", justifyContent: "center", gap: "20px", marginBottom: "15px", marginTop: "20px" }}>
@@ -44,7 +44,7 @@ const Libriri = () => {
             <section className="Libriri2">
                 <div className="container-fluid">
                     <h1>Exceptional Service & Guaranteed Confidence!</h1>
-                    <p>Shop confidently! We offer a Money Back Guarantee with easy Return & Refund and Secure Payment. Our Quality Support is here 24/7, and you get exclusive Daily Offers just for subscribing. Experience hassle-free shopping today!</p>
+                    <p className='lead'>Shop confidently! We offer a Money Back Guarantee with easy Return & Refund and Secure Payment. Our Quality Support is here 24/7, and you get exclusive Daily Offers just for subscribing. Experience hassle-free shopping today!</p>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-2">
                             <div className="box">
@@ -52,7 +52,7 @@ const Libriri = () => {
                                     <FaShippingFast />
                                 </div>
                                 <h1>Return & refund</h1>
-                                <p>Money back guarantee</p>
+                                <p className='lead'>Money back guarantee</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
@@ -61,7 +61,7 @@ const Libriri = () => {
                                     <RiSecurePaymentFill />
                                 </div>
                                 <h1>Secure Payment</h1>
-                                <p>30% off by subscribing</p>
+                                <p className='lead'>30% off by subscribing</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
@@ -70,7 +70,7 @@ const Libriri = () => {
                                     <MdOutlineSupportAgent />
                                 </div>
                                 <h1>Quality Support</h1>
-                                <p>Always online 24/7</p>
+                                <p className='lead'>Always online 24/7</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
@@ -79,7 +79,7 @@ const Libriri = () => {
                                     <SiDailymotion />
                                 </div>
                                 <h1>Daily Offers</h1>
-                                <p>20% off by subscribing</p>
+                                <p className='lead'>20% off by subscribing</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ const Libriri = () => {
                 <div className="container-fluid">
                     <div className="col-lg-10 offset-lg-1">
                         <h1>Top Categories Book</h1>
-                        <p>Discover our Top Categories Books, carefully selected to guide readers through knowledge, faith, and inspiration. From Islamic teachings and history to thought-provoking literature, these books highlight the wisdom of renowned scholars and offer timeless lessons for every reader.</p>
+                        <p className='lead'>Discover our Top Categories Books, carefully selected to guide readers through knowledge, faith, and inspiration. From Islamic teachings and history to thought-provoking literature, these books highlight the wisdom of renowned scholars and offer timeless lessons for every reader.</p>
                     </div>
                     <LibririCarousel />
                 </div>

@@ -31,7 +31,7 @@ const Regestration = () => {
                     <div className="col-lg-8 offset-lg-2">
                         <img src="https://ik.imagekit.io/hmdcfponi/Regestration/logo?updatedAt=1760984823885" alt="Logo" className='img-fluid' data-aos="fade-up" />
                         <h1 data-aos="fade-up">Welcome to the Membership Community</h1>
-                        <p data-aos="fade-up">We warmly welcome you to join the blessed circle of knowledge and guidance under the teachings of Molana Zameer. By becoming a member, you take a step toward spiritual growth, unity, and spreading the message of truth and compassion.</p>
+                        <p className='lead' data-aos="fade-up">We warmly welcome you to join the blessed circle of knowledge and guidance under the teachings of Molana Zameer. By becoming a member, you take a step toward spiritual growth, unity, and spreading the message of truth and compassion.</p>
                     </div>
                 </div>
             </section>

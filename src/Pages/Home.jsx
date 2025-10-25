@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { IoHome } from "react-icons/io5";
 import { FaUsers } from "react-icons/fa6";
 import { AiFillProduct } from "react-icons/ai";
+import PrayerTimes from '../Components/PrayerTimes';
 const Home = () => {
     const Home3 = [
         {
@@ -80,7 +81,7 @@ const Home = () => {
             <section className="qari">
                 <div className="container-fluid">
                     <h1 data-aos="fade-up">Our Honorable Scholars & Guests</h1>
-                    <p data-aos="fade-up">We are deeply honored to welcome the respected scholars who will enlighten us with their words of wisdom. Their presence adds immense spiritual value to our event and strengthens our connection to the teachings of Islam.</p>
+                    <p data-aos="fade-up">We are deeply honored to welcome the respected scholars who will enlighten us with their words of wisdom. Their presence adds immense spiritual value to our event and strengthens our connection to the teachings of Islam. All these honorable scholars will, Insha’Allah, be joining us on <b>30/10/2025</b> and will deliver their enlightening speeches at <b>Jalal Baba Torium</b>. May this gathering be a source of guidance, unity, and blessings for all.</p>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
                             <div className="box">
@@ -127,51 +128,11 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <img src="./img/1.jpg" className="w-100" data-aos="fade-up" />
             <section className="home2">
-                <div className="container-fluid">
-                    <div className="col-lg-6 offset-lg-3 text-center">
-                        <img data-aos="fade-up" src="https://ik.imagekit.io/hmdcfponi/Home/title?updatedAt=1758351999181" className='img-fluid' alt="About Us image" />
-                        <h1 data-aos="fade-up">Prayer Timings</h1>
-                        <p data-aos="fade-up">Prayer is a source of spiritual peace and blessings in human life. To maximize your daily devotions, respect prayer timings and seek Allah's blessings by praying on time.</p>
-                    </div>
-                    <div className="row text-center">
-                        <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="slide-up">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/Namaz%20Icon/fajir?updatedAt=1758356295346" alt="" />
-                                <h3>Fajr 3:58</h3>
-                                <p>Fajr prayer brings light to the soul and blessings to the day;</p>
-                            </div>
-                        </div>
-                        <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="slide-down">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/Namaz%20Icon/zuhr?updatedAt=1758356295454" alt="" />
-                                <h3>Dhuhr 11:56</h3>
-                                <p>Fajr prayer brings light to the soul and blessings to the day;</p>
-                            </div>
-                        </div>
-                        <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="slide-left">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/Namaz%20Icon/asr?updatedAt=1758356295392" alt="" />
-                                <h3>Asr 4:19</h3>
-                                <p>Fajr prayer brings light to the soul and blessings to the day;</p>
-                            </div>
-                        </div>
-                        <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="slide-right">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/Namaz%20Icon/magrib?updatedAt=1758356295352" alt="" />
-                                <h3>Maghrib 6:02</h3>
-                                <p>Fajr prayer brings light to the soul and blessings to the day;</p>
-                            </div>
-                        </div>
-                        <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="zoom-in">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/Namaz%20Icon/isha?updatedAt=1758356295364" alt="" />
-                                <h3>Isha 7:30</h3>
-                                <p>Fajr prayer brings light to the soul and blessings to the day;</p>
-                            </div>
-                        </div>
-                    </div>
+                <div className="container-fluid text-center">
+                    <h1 data-aos="fade-up">Prayer Timings</h1>
+                    <p data-aos="fade-up">Prayer is a source of spiritual peace and blessings in human life. To maximize your daily devotions, respect prayer timings and seek Allah's blessings by praying on time.</p>
+                    <PrayerTimes />
                 </div>
             </section>
             <section className="home3">
@@ -203,28 +164,28 @@ const Home = () => {
                         <div className="col-lg-3 col-md-6 my-2">
                             <div className="box" data-aos="flip-left">
                                 <center><div className="icon"><PiStudentBold /></div></center>
-                                <h1>743+</h1>
+                                <h1>20</h1>
                                 <h4>Students</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
                             <div className="box" data-aos="flip-right">
                                 <center><div className="icon"><IoHome /></div></center>
-                                <h1>13+</h1>
+                                <h1>01</h1>
                                 <h4>Centers</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
                             <div className="box" data-aos="flip-left">
                                 <center><div className="icon"><FaUsers /></div></center>
-                                <h1>850+</h1>
+                                <h1>10</h1>
                                 <h4>Member</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2">
                             <div className="box" data-aos="flip-right">
                                 <center><div className="icon"><AiFillProduct /></div></center>
-                                <h1>38+</h1>
+                                <h1>01</h1>
                                 <h4>Programs</h4>
                             </div>
                         </div>
@@ -236,7 +197,7 @@ const Home = () => {
                     <div className="content">
                         <h6 data-aos="fade-up">Gallery</h6>
                         <h1 data-aos="fade-up">Our Islamic Institute Gallery</h1>
-                        <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur. Eget ornare ac eleifend leo mauris suspendisse. Bibendum suspendisse proin aliquet porttitor.</p>
+                        <p data-aos="fade-up">Our Islamic Institute Gallery beautifully showcases memorable moments from our events, scholarly gatherings, and student activities. Each photograph reflects our commitment to spreading the light of knowledge, faith, and unity within the community.</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">

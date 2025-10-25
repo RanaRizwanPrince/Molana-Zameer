@@ -5,9 +5,11 @@ const Bazam_Zameer = () => {
     return (
         <>
             <section className="Bazam_Zameer1 text-center">
-                <img src="https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/1?updatedAt=1759906963001" className="img-fluid" />
-                <h1>Bazam Zameer</h1>
-                <p>Bazam Zameer is a platform dedicated to spreading knowledge, unity, and positive change under the guidance of Molana Zameer. It inspires hearts, connects minds, and promotes the true message of peace and faith</p>
+                <div className="container-fluid">
+                    <img src="https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/1?updatedAt=1759906963001" className="img-fluid" />
+                    <h1>Bazam Zameer</h1>
+                    <p className='lead'>Bazam Zameer is a platform dedicated to spreading knowledge, unity, and positive change under the guidance of Molana Zameer. It inspires hearts, connects minds, and promotes the true message of peace and faith</p>
+                </div>
             </section>
             <section className="Bazam_Zameer2">
                 <div className="container-fluid  text-center">
@@ -52,7 +54,7 @@ const Bazam_Zameer = () => {
             <section className="Bazam_Zameer3">
                 <div className="container-fluid">
                     <h1>News and Events</h1>
-                    <p>Stay updated with the latest news and events of Molana Zameer’s mission. Explore upcoming gatherings, community activities, and spiritual sessions that aim to spread knowledge, unity, and peace among people.</p>
+                    <p className='lead'>Stay updated with the latest news and events of Molana Zameer’s mission. Explore upcoming gatherings, community activities, and spiritual sessions that aim to spread knowledge, unity, and peace among people.</p>
                     <hr />
                     <Bazam_Evants />
                 </div>

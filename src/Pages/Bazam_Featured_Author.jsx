@@ -14,7 +14,7 @@ const Bazam_Featured_Author = () => {
             <div className="container-fluid">
                 <img src="https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/bismilallah?updatedAt=1759920794467" className="img-fluid" />
                 <h1> Refresh Your Faith and Find Guidance with Molana Zameer!</h1>
-                <p>Welcome! This is your central hub for all the latest religious programs, conferences, speeches, and lectures by Molana Zameer.  Our mission is to promote Islamic teachings according to the needs of the modern age, following the Sunnah and the path of our righteous predecessors. Molana Zameer's passionate and well-reasoned discourse will quench your spiritual thirst and inspire you to be a better Muslim. Stay connected to get all the updates on his upcoming conferences and important announcements!</p>
+                <p className="lead">Welcome! This is your central hub for all the latest religious programs, conferences, speeches, and lectures by Molana Zameer.  Our mission is to promote Islamic teachings according to the needs of the modern age, following the Sunnah and the path of our righteous predecessors. Molana Zameer's passionate and well-reasoned discourse will quench your spiritual thirst and inspire you to be a better Muslim. Stay connected to get all the updates on his upcoming conferences and important announcements!</p>
                 <div className="author-slider">
                     <div className="slider-track">
                         {[...authors, ...authors].map((a, i) => (

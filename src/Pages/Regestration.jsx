@@ -4,24 +4,29 @@ import { FaMosque } from "react-icons/fa";
 import { AiFillOpenAI } from "react-icons/ai";
 import { SiHelpscout } from "react-icons/si";
 import MembershipForm from './MembershipForm';
+import { NavLink } from 'react-router-dom';
 const Regestration = () => {
     const membership = [
         {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/4?updatedAt=1760962751630",
             h1: "Pakistan Flags",
             paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
+            link: "/Maulana_Zameer_Ahmed_Qureshi",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/2?updatedAt=1760962753016",
             h1: "Maulana Shabbir Ahmed Usmani",
             paragraph: "Heartiest congratulations to the 1st Position Holder! Your outstanding achievement earns you a brand-new, powerful Laptop for future success.",
+            link: "/Maulana_Zameer_Ahmed_Qureshi",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/1?updatedAt=1760962753584",
             h1: "Allama Muhammad Yousuf Banuri",
             paragraph: "Congratulations to the brilliant 2nd Position Holder! We honor your hard work by presenting you with a state-of-the-art Laptop.",
+            link: "/Maulana_Zameer_Ahmed_Qureshi",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/3?updatedAt=1760962754353",
             h1: "Maulana Zameer Ahmed Qureshi",
             paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
+            link: "/Maulana_Zameer_Ahmed_Qureshi",
         },
     ]
     return (
@@ -35,7 +40,7 @@ const Regestration = () => {
                     </div>
                 </div>
             </section>
-            <section className="Regestration1">
+            <section className="Regestration2">
                 <div className="container-fluid">
                     <div className="row py-3">
                         {membership.map((data, index) => (
@@ -46,6 +51,7 @@ const Regestration = () => {
                                         <div class="card-body">
                                             <h5 data-aos="fade-up">{data.h1}</h5>
                                             <p data-aos="fade-up">{data.paragraph}</p>
+                                            <NavLink className="link" to={data.link}>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>

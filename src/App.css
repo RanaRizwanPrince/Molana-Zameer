@@ -882,6 +882,24 @@ p {
     flex-direction: column;
 }
 
+.Regestration2 {
+    .card {
+        position: relative;
+
+        .link {
+            position: absolute;
+            right: 0%;
+            bottom: 0%;
+            text-decoration: none;
+            background-color: var(--brown);
+            padding: 5px 10px;
+            color: var(--white);
+            font-weight: bold;
+            border-radius: 20px 0px 0px 0px;
+        }
+    }
+}
+
 .Regestration3 {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 2.9), rgba(255, 255, 255, 0.0)), url("https://ik.imagekit.io/hmdcfponi/Regestration/Our-Center?updatedAt=1760517849311");
     padding: 150px 0px;

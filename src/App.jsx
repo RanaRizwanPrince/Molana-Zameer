@@ -24,6 +24,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 import Contact from "./Pages/Contact";
 import Regestration from "./Pages/Regestration";
 import Ansar_Shabbir from "./Pages/Ansar_Shabbir";
+import Maulana_Zameer_Ahmed_Qureshi from "./Pages/Maulana_Zameer_Ahmed_Qureshi";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -52,6 +53,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Regestration" element={<Regestration />} />
         <Route path="/Ansar_Shabbir" element={<Ansar_Shabbir />} />
+        <Route path="/Maulana_Zameer_Ahmed_Qureshi" element={<Maulana_Zameer_Ahmed_Qureshi />} />
       </Routes>
       <TopToBottom />
       <Footer />

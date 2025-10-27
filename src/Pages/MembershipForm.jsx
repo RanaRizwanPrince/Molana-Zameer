@@ -38,6 +38,8 @@ const RegistrationForm = () => {
                 address: "",
                 phone: "",
                 profession: "",
+                School_Collage: "",
+                University: "",
                 signature: "",
                 date: "",
             });
@@ -59,61 +61,69 @@ const RegistrationForm = () => {
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Full Name</h3>
-                                    <input type="text" name="name" value={formData.name} onChange={handleChange} required style={inputStyle} />
+                                    <input type="text" placeholder="Full Name" name="name" value={formData.name} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Father's Name</h3>
-                                    <input type="text" name="fatherName" value={formData.fatherName} onChange={handleChange} required style={inputStyle} />
+                                    <input type="text" placeholder="Father Name" name="fatherName" value={formData.fatherName} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
-
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Age</h3>
-                                    <input type="number" name="age" value={formData.age} onChange={handleChange} required style={inputStyle} />
+                                    <input type="number" placeholder="Enter Your Age" name="age" value={formData.age} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Educational Qualification</h3>
-                                    <input type="text" name="education" value={formData.education} onChange={handleChange} required style={inputStyle} />
+                                    <input type="text" placeholder="Qualification" name="education" value={formData.education} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Address</h3>
-                                    <input type="text" name="address" value={formData.address} onChange={handleChange} required style={inputStyle} />
+                                    <input type="text" placeholder="Address" name="address" value={formData.address} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Phone Number</h3>
-                                    <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required style={inputStyle} />
+                                    <input type="tel" placeholder="Phone Number" name="phone" value={formData.phone} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Profession/Position</h3>
-                                    <input type="text" name="profession" value={formData.profession} onChange={handleChange} required style={inputStyle} />
+                                    <input type="text" placeholder="Profession" name="profession" value={formData.profession} onChange={handleChange} required style={inputStyle} />
                                 </label>
                             </div>
-
+                            <div className="col-lg-6 col-md-6">
+                                <label className="w-100">
+                                    <h3>School/Collage</h3>
+                                    <input type="text" placeholder="School / Collage" name="School_Collage" value={formData.School_Collage} onChange={handleChange} style={inputStyle} />
+                                </label>
+                            </div>
+                            <div className="col-lg-6 col-md-6">
+                                <label className="w-100">
+                                    <h3>University</h3>
+                                    <input type="text" placeholder="University" name="University" value={formData.University} onChange={handleChange} style={inputStyle} />
+                                </label>
+                            </div>
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
                                     <h3>Message</h3>
-                                    <input type="text" name="signature" value={formData.signature} onChange={handleChange} style={inputStyle} />
+                                    <input type="text" placeholder="Message" name="signature" value={formData.signature} onChange={handleChange} style={inputStyle} />
                                 </label>
                             </div>
-
                             <div className="col-lg-6 col-md-6">
                                 <label className="w-100">
-                                    <h3>Date</h3>
+                                    <h3>Date Of Birth</h3>
                                     <input type="date" name="date" value={formData.date} onChange={handleChange} style={inputStyle} />
                                 </label>
                             </div>
-
                             <div className="col-lg-6 col-md-6">
                                 <h3 className="text-white">Date</h3>
                                 <button type="submit" style={buttonStyle} disabled={loading}>

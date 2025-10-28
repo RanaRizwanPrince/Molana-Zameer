@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { IoBook } from "react-icons/io5";
 import { FaMosque } from "react-icons/fa";
 import { AiFillOpenAI } from "react-icons/ai";
@@ -9,9 +9,9 @@ const Regestration = () => {
     const membership = [
         {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/4?updatedAt=1760962751630",
-            h1: "Pakistan Flags",
+            h1: "Pakistan Development Details",
             paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
-            link: "/Maulana_Zameer_Ahmed_Qureshi",
+            link: "/PakistanDetails",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/2?updatedAt=1760962753016",
             h1: "Maulana Shabbir Ahmed Usmani",
@@ -29,6 +29,16 @@ const Regestration = () => {
             link: "/Maulana_Zameer_Ahmed_Qureshi",
         },
     ]
+    useEffect(() => {
+        document.title = 'Membership | Molana Zameer – Join Our Islamic Community of Learning & Faith';
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "Become a valued member of Molana Zameer’s community and gain access to exclusive Islamic teachings, events, and opportunities to grow in faith and knowledge."
+            );
+        }
+    }, []);
     return (
         <>
             <section className="Rhead">

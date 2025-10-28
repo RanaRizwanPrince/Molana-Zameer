@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import { MdChildCare } from "react-icons/md";
 import { GiMartyrMemorial } from "react-icons/gi";
 import { FaMosque } from "react-icons/fa6";
 import { IoMdHelpCircleOutline } from "react-icons/io";
 const About = () => {
+    useEffect(() => {
+        document.title = 'About Us | Molana Zameer – Spreading the Light of Islamic Knowledge';
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "Learn about Molana Zameer, an inspiring Islamic scholar devoted to guiding people towards faith, unity, and authentic religious understanding."
+            );
+        }
+    }, []);
     return (
         <>
             <section className="About1 text-center">

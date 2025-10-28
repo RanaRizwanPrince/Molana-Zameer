@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Bazam_Evants from './Bazam_Evants'
 import Bazam_Featured_Author from './Bazam_Featured_Author'
 const Bazam_Zameer = () => {
+    useEffect(() => {
+        document.title = 'Bazam Zameer | Molana Zameer – A Circle of Faith and Unity';
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "Join Bazam Zameer, an initiative by Molana Zameer, dedicated to spreading Islamic teachings, unity, and community engagement through knowledge and guidance."
+            );
+        }
+    }, []);
     return (
         <>
             <section className="Bazam_Zameer1 text-center">

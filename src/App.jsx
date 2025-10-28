@@ -25,6 +25,7 @@ import Contact from "./Pages/Contact";
 import Regestration from "./Pages/Regestration";
 import Ansar_Shabbir from "./Pages/Ansar_Shabbir";
 import Maulana_Zameer_Ahmed_Qureshi from "./Pages/Maulana_Zameer_Ahmed_Qureshi";
+import PakistanDetails from "./Pages/PakistanDetails";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -54,6 +55,7 @@ function App() {
         <Route path="/Regestration" element={<Regestration />} />
         <Route path="/Ansar_Shabbir" element={<Ansar_Shabbir />} />
         <Route path="/Maulana_Zameer_Ahmed_Qureshi" element={<Maulana_Zameer_Ahmed_Qureshi />} />
+        <Route path="/PakistanDetails" element={<PakistanDetails />} />
       </Routes>
       <TopToBottom />
       <Footer />

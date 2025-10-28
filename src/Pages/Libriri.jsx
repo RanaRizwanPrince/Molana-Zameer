@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { IoSearchOutline } from "react-icons/io5";
 import { FaShippingFast } from "react-icons/fa";
 import { RiSecurePaymentFill } from "react-icons/ri";
@@ -21,6 +21,16 @@ const Libriri = () => {
                 return "Search here...";
         }
     };
+    useEffect(() => {
+        document.title = 'Library | Molana Zameer – Explore Our Islamic Knowledge Collection';
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "Discover Molana Zameer’s Islamic library filled with books, articles, and authentic resources to enhance your knowledge and spiritual understanding."
+            );
+        }
+    }, []);
     return (
         <>
             <section className="Libriri1 text-center">

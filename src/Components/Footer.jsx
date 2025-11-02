@@ -16,11 +16,11 @@ const Footer = () => {
                             <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" alt="Footer Logo" className='img-fluid' />
                             <p>Discover the essence of faith and community at Siraj Islamic Center. We are dedicated to nurturing spiritual growth, fostering unity, and providing meaningful services for all. Guided by the Qur’an and Sunnah, we strive to inspire, educate, and connect hearts.</p>
                             <div className="icon">
-                                <NavLink className="link" to="https://www.facebook.com/molanazameer2025"><FaFacebook /></NavLink>
-                                <NavLink className="link" to="https://www.instagram.com/mola.nazameer/"><FaInstagram /></NavLink>
-                                <NavLink className="link" to="https://wa.link/r57e5m"><FaWhatsapp /></NavLink>
-                                <NavLink className="link" to="https://www.youtube.com/@Zameer-e2t"><IoLogoYoutube /></NavLink>
-                                <NavLink className="link" to="https://www.tiktok.com/@molanazameer"><FaTiktok /></NavLink>
+                                <NavLink target='_blank' className="link" to="https://www.facebook.com/molanazameer2025"><FaFacebook /></NavLink>
+                                <NavLink target='_blank' className="link" to="https://www.instagram.com/mola.nazameer/"><FaInstagram /></NavLink>
+                                <NavLink target='_blank' className="link" to="https://wa.link/r57e5m"><FaWhatsapp /></NavLink>
+                                <NavLink target='_blank' className="link" to="https://www.youtube.com/@Zameer-e2t"><IoLogoYoutube /></NavLink>
+                                <NavLink target='_blank' className="link" to="https://www.tiktok.com/@molanazameer"><FaTiktok /></NavLink>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">

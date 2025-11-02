@@ -9,19 +9,19 @@ import PrayerTimes from '../Components/PrayerTimes';
 const Home = () => {
     const Home3 = [
         {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1760950354427",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1762098680816",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "1st Position Holder",
+            h1: "1st Inamullah",
             paragraph: "Heartiest congratulations to the 1st Position Holder! Your outstanding achievement earns you a brand-new, powerful Laptop for future success.",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1760950354427",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762098680394",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "2st Position Holder",
+            h1: "2st Ehtesham-ul-Haq",
             paragraph: "Congratulations to the brilliant 2nd Position Holder! We honor your hard work by presenting you with a state-of-the-art Laptop.",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1760950354427",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762098680295",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "3st Position Holder",
+            h1: "3st Muhammad Saffron",
             paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
         },
     ]
@@ -148,7 +148,6 @@ const Home = () => {
                                 <div key={index} className="col-lg-4 col-md-6 my-2">
                                     <img src={data.img} className='w-100' data-aos="flip-right" />
                                     <div className="box" data-aos="fade-up">
-                                        <img src={data.pro} data-aos="flip-right" />
                                         <h2>{data.h1}</h2>
                                         <p>{data.paragraph}</p>
                                     </div>

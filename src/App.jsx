@@ -37,7 +37,7 @@ function App() {
   }, []);
   return (
     <>
-      <PopupAlert />
+      {/* <PopupAlert /> */}
       <Preloader />
       <Navbar />
       <MousEffact />

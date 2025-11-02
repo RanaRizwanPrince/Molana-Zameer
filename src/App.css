@@ -255,7 +255,7 @@ p {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 0px 0px 10px 10px;
         padding: 10px;
-        transition: 0.30s ease-in-out;
+        transition: 0.90s ease-in-out;
         position: relative;
         border-top: 2px solid var(--white);
 
@@ -263,19 +263,9 @@ p {
             color: var(--brown);
         }
 
-        img {
-            border-top: 2px solid var(--white);
-            border-left: 2px solid var(--white);
-            width: 30%;
-            position: absolute;
-            top: -125%;
-            border-radius: 100px 0px 0px 0px;
-            right: 0%;
-        }
-
         &:hover {
             background-color: var(--brown);
-            transform: translateY(-50px);
+            transform: translateY(-10px);
 
             h2 {
                 color: var(--white);

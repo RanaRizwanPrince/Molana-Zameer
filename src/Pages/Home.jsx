@@ -16,12 +16,12 @@ const Home = () => {
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762098680394",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "2st Ehtesham-ul-Haq",
+            h1: "2nd Ehtesham-ul-Haq",
             paragraph: "Congratulations to the brilliant 2nd Position Holder! We honor your hard work by presenting you with a state-of-the-art Laptop.",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762098680295",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "3st Muhammad Saffron",
+            h1: "3rd Muhammad Saffron",
             paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
         },
     ]
@@ -33,8 +33,8 @@ const Home = () => {
                     <div className="col-lg-8 offset-lg-2">
                         <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" className='img-fluid' alt="Main Logo" />
                         <img src="https://ik.imagekit.io/hmdcfponi/Home/banner-ayat?updatedAt=1758795387573" alt="Banner Ayat" className='img-fluid' />
-                        <h1>O Allah, send blessings upon Muhammad and the family of Muhammad.</h1>
-                        <p className='lead'>Welcome to Molana Zameer’s website, a place of peace, knowledge, and blessings. Here, every visitor is greeted with prayers, inspiration, and a beautiful spiritual atmosphere that refreshes the heart and soul.</p>
+                        <h1>O believers!</h1>
+                        <p className='lead'>Today, amidst the noise of the decline, division and anxiety of the Ummah, we are hearing a voice again — the voice that arose from the solitude of the Maltese prison, the voice that came from the depths of the heart of Sheikh-ul-Hind Maulana Mahmud-ul-Hasan. This is the voice that reminds us that the cure for the Ummah does not lie in the noise of any slogan, any government or any movement, but in the light of the Quran and in the relationship of mutual love.</p>
                     </div>
                 </div>
             </section>
@@ -80,31 +80,22 @@ const Home = () => {
             </section>
             <section className="qari">
                 <div className="container-fluid">
-                    <h1 data-aos="fade-up">Our Honorable Scholars & Guests</h1>
-                    <p data-aos="fade-up">We are deeply honored to welcome the respected scholars who will enlighten us with their words of wisdom. Their presence adds immense spiritual value to our event and strengthens our connection to the teachings of Islam. All these honorable scholars will, Insha’Allah, be joining us on <b>30/10/2025</b> and will deliver their enlightening speeches at <b>Jalal Baba Torium</b>. May this gathering be a source of guidance, unity, and blessings for all.</p>
+                    <h1 data-aos="fade-up">Heartfelt Gratitude to Our Honorable Guests</h1>
+                    <p data-aos="fade-up">We are truly grateful to the respected scholars who graced our event with their presence and inspiring words. Their wisdom and guidance filled the gathering with light, faith, and positivity. ✨ Thank you for honoring us with your time and making this occasion truly meaningful and blessed.</p>
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                        <div className="col-lg-4 col-md-4 my-2" data-aos="fade-up">
                             <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/1?updatedAt=1760987540111" className="img-fluid img-thumbnail" />
-                                <h5>Mufti Abdul Wahid Qureshi</h5>
+                                <img src="https://ik.imagekit.io/hmdcfponi/Home/1?updatedAt=1762156409538" className="img-fluid img-thumbnail" />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                        <div className="col-lg-4 col-md-4 my-2" data-aos="fade-up">
                             <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/2?updatedAt=1760987538726" className="img-fluid img-thumbnail" />
-                                <h5>Mufti Shabbir Ahmed Usmani</h5>
+                                <img src="https://ik.imagekit.io/hmdcfponi/Home/3?updatedAt=1762156409613" className="img-fluid img-thumbnail" />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
+                        <div className="col-lg-4 col-md-4 my-2" data-aos="fade-up">
                             <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/3?updatedAt=1760987538793" className="img-fluid img-thumbnail" />
-                                <h5>Mufti Mahmoodul Hassan Shah Sahib</h5>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
-                            <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/4?updatedAt=1760987538105" className="img-fluid img-thumbnail" />
-                                <h5>Hazrat Maulana Tayyab Qasmi</h5>
+                                <img src="https://ik.imagekit.io/hmdcfponi/Home/2?updatedAt=1762156409731" className="img-fluid img-thumbnail" />
                             </div>
                         </div>
                     </div>
@@ -114,7 +105,7 @@ const Home = () => {
                 <div className="container-fluid">
                     <div className="row d-flex align-items-center">
                         <div className="col-lg-6 col-md-6 my-2">
-                            <img className='img img-fluid' data-aos="fade-up" src="https://ik.imagekit.io/hmdcfponi/Home/title?updatedAt=1758351999181" alt="About Image 01" />
+                            <img className='img-fluid' data-aos="fade-up" src="https://ik.imagekit.io/hmdcfponi/Home/title?updatedAt=1758351999181" alt="About Image 01" />
                             <h1 data-aos="flip-up">Welcome to Molana Zameer Center for Muslims!</h1>
                             <p data-aos="flip-down">Zameer is the know how to pursue pleasure rationally encounter consequences that are extremely painful. nor again is there anyone who loves or pursue or desires too btain pain of itself, because it is pain, but because</p>
                             <h3 data-aos="flip-left">Molana Zameer Center for Muslims to Achieve Spiritual Goals</h3>

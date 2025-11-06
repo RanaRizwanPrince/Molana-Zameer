@@ -210,26 +210,12 @@ p {
         color: var(--brown);
     }
 
-    .img {
-        animation: bis 1s linear infinite alternate;
-    }
-
     .link {
         background-color: var(--brown);
         padding: 10px;
         text-decoration: none;
         font-weight: 500;
         color: var(--white);
-    }
-}
-
-@keyframes bis {
-    to {
-        transform: scale(1.0);
-    }
-
-    from {
-        transform: scale(1.1);
     }
 }
 
@@ -280,17 +266,6 @@ p {
     .box {
         position: relative;
         transition: 0.20s ease-in-out;
-
-        h5 {
-            text-align: center;
-            top: 0%;
-            left: 0%;
-            padding: 10px;
-            background-color: var(--brown);
-            border-radius: 0px 0px 30px 0px;
-            position: absolute;
-            color: var(--white);
-        }
 
         &:hover {
             transform: scale(1.05);
@@ -656,14 +631,9 @@ p {
     }
 
     .box {
-        background-color: var(--brown);
         padding: 30px;
+        background-color: var(--brown);
         border-radius: 10px;
-
-        h3 {
-            text-transform: uppercase;
-            color: var(--black);
-        }
     }
 }
 
@@ -808,17 +778,39 @@ p {
 }
 
 /* Bazam_Featured_Author Code End */
-
-.Biogarafi1 {
+.biogarafi1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://ik.imagekit.io/hmdcfponi/About/banner?updatedAt=1758883843727");
     background-position: center;
     width: 100%;
     color: var(--brown);
-    height: 50vh;
+    height: 70vh;
+    margin-top: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
+}
+
+@media (max-width:500px) {
+    .biogarafi1 {
+        padding: 30px 0px;
+        text-align: justify;
+    }
+}
+
+.biogarafi2 {
+    .content {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        margin: 20px 0px;
+        border-radius: 10px;
+    }
+
+    h3,
+    h1 {
+        color: var(--brown);
+    }
 }
 
 .Pod_Cast1 {

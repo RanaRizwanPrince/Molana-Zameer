@@ -26,36 +26,28 @@ const Bazam_Zameer = () => {
                     <h1 data-aos="fade-up">Digital Resources</h1>
                     <p className='lead' data-aos="fade-in">Digital Resources provide easy access to Molana Zameer’s speeches, writings, and educational materials — helping followers learn, share, and stay connected in today’s digital world.</p>
                     <div className="row">
-                        <div className="row">
-                            <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                                <div className="box" data-aos="flip-left">
-                                    <h3>eBooks</h3>
-                                    <p>Shahada is belief in Allah’s oneness and Muhammad ﷺ as His final Messenger.</p>
-                                </div>
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
+                            <div className="box" data-aos="flip-left">
+                                <h3>eBooks</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
                             </div>
-                            <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                                <div className="box" data-aos="flip-left">
-                                    <h3>Audiobooks</h3>
-                                    <p>Salah are five daily prayers connecting Muslims with Allah, promoting discipline and spirituality.</p>
-                                </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
+                            <div className="box" data-aos="flip-left">
+                                <h3>Audiobooks</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
                             </div>
-                            <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                                <div className="box" data-aos="flip-right">
-                                    <h3>Videos</h3>
-                                    <p>Zakat purifies wealth by helping the poor, reducing inequality, and supporting community welfare.</p>
-                                </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
+                            <div className="box" data-aos="flip-right">
+                                <h3>Videos</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
                             </div>
-                            <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                                <div className="box" data-aos="flip-left">
-                                    <h3>Music</h3>
-                                    <p>Sawm in Ramadan builds patience, self-control, gratitude, and empathy for the less fortunate.</p>
-                                </div>
-                            </div>
-                            <div className="col-6 col-md my-2 d-flex align-items-stretch">
-                                <div className="box" data-aos="flip-right">
-                                    <h3>Magazines</h3>
-                                    <p>Hajj is pilgrimage to Makkah, symbolizing unity, equality, and devotion among all Muslims.</p>
-                                </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
+                            <div className="box" data-aos="flip-right">
+                                <h3>Magazines</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
                             </div>
                         </div>
                     </div>

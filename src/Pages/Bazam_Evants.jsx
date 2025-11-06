@@ -1,24 +1,24 @@
 import { useState, useEffect } from "react";
 const Bazam_Evants = () => {
-    const Zameer_Updates = [
+    const Bazam_Zameer = [
         {
-            title: "Latest Announcements",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/1?updatedAt=1762166720224",
         }, {
-            title: "Press Releases",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/2?updatedAt=1762166719196",
         }, {
-            title: "New Project Launches",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/3?updatedAt=1762166718333",
         }, {
-            title: "Organizational Notices",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/4?updatedAt=1762166717512",
         }, {
-            title: "Public Statements",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/5?updatedAt=1762166716248",
         }, {
-            title: "Public Statements",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/6?updatedAt=1762166715404",
+        }, {
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762166712764",
+        }, {
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/8?updatedAt=1762166711902",
+        }, {
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/9?updatedAt=1762166709821",
         },
     ];
     const Highlights = [
@@ -62,20 +62,20 @@ const Bazam_Evants = () => {
     ];
     const Zameer_Awards = [
         {
-            title: "Student Achievements",
-            img: "https://placehold.co/400",
+            title: "1st Position",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1762098680816",
         }, {
-            title: "Teacher Recognition",
-            img: "https://placehold.co/400",
+            title: "2nd Student",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762098680394",
         }, {
-            title: "Community Heroes",
-            img: "https://placehold.co/400",
+            title: "3rd Student",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762098680295",
         }, {
-            title: "Annual Award Ceremonies",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/ssss?updatedAt=1761999717094",
         }, {
-            title: "Certificates & Appreciation Posts",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/ssss?updatedAt=1761999717094",
+        }, {
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/ssss?updatedAt=1761999717094",
         },
     ];
     const Community = [
@@ -169,16 +169,15 @@ const Bazam_Evants = () => {
         },
     ];
     const [selectedData, setSelectedData] = useState("");
-    const [activeButton, setActiveButton] = useState("Backend");
+    const [activeButton, setActiveButton] = useState("Bazam_Zameer");
     const data = {
-        Zameer_Updates: (
+        Bazam_Zameer: (
             <div className="techbox">
                 <div className="row">
-                    {Zameer_Updates.map((data, index) => (
+                    {Bazam_Zameer.map((data, index) => (
                         <>
                             <div key={index} className="col-lg-2 col-md-3 my-2">
                                 <img src={data.img} className="img-fluid img-thumbnail" />
-                                <h5>{data.title}</h5>
                             </div>
                         </>
                     ))}
@@ -303,14 +302,14 @@ const Bazam_Evants = () => {
         setActiveButton(buttonKey);
     };
     useEffect(() => {
-        setSelectedData(data["Zameer_Updates"]);
+        setSelectedData(data["Bazam_Zameer"]);
     }, []);
     return (
         <>
             <div className="Evatsbtn">
                 <div className="container-fluid">
                     <div className="allbtn">
-                        <button className={activeButton === "Zameer_Updates" ? "active" : ""} onClick={() => handleClick("Zameer_Updates")} >Zameer Updates</button>
+                        <button className={activeButton === "Bazam_Zameer" ? "active" : ""} onClick={() => handleClick("Bazam_Zameer")} >Bazam Zameer</button>
                         <button className={activeButton === "Highlights" ? "active" : ""} onClick={() => handleClick("Highlights")} >Highlights of the Day</button>
                         <button className={activeButton === "Inspiring" ? "active" : ""} onClick={() => handleClick("Inspiring")} >Inspiring Gatherings</button>
                         <button className={activeButton === "Zameer_Awards" ? "active" : ""} onClick={() => handleClick("Zameer_Awards")} >Zameer Awards & Honors</button>

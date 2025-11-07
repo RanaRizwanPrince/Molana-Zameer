@@ -25,7 +25,10 @@ import Contact from "./Pages/Contact";
 import Regestration from "./Pages/Regestration";
 import Ansar_Shabbir from "./Pages/Ansar_Shabbir";
 import Maulana_Zameer_Ahmed_Qureshi from "./Pages/Maulana_Zameer_Ahmed_Qureshi";
+import Maulana_Shabbir_Ahmed_Usmani from "./Pages/Maulana_Shabbir_Ahmed_Usmani";
+import Allama_Muhammad_Yousuf_Banuri from "./Pages/Allama_Muhammad_Yousuf_Banuri";
 import PakistanDetails from "./Pages/PakistanDetails";
+import Most_Popular_EpisodesAPI from "./Utils/Most_Popular_EpisodesAPI";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -55,7 +58,11 @@ function App() {
         <Route path="/Regestration" element={<Regestration />} />
         <Route path="/Ansar_Shabbir" element={<Ansar_Shabbir />} />
         <Route path="/Maulana_Zameer_Ahmed_Qureshi" element={<Maulana_Zameer_Ahmed_Qureshi />} />
+        <Route path="/Maulana_Shabbir_Ahmed_Usmani" element={<Maulana_Shabbir_Ahmed_Usmani />} />
+        <Route path="/Allama_Muhammad_Yousuf_Banuri" element={<Allama_Muhammad_Yousuf_Banuri />} />
         <Route path="/PakistanDetails" element={<PakistanDetails />} />
+        {/* All API's  */}
+        <Route path="/Most_Popular_EpisodesAPI" element={<Most_Popular_EpisodesAPI />} />
       </Routes>
       <TopToBottom />
       <Footer />

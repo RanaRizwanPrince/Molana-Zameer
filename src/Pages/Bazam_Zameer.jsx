@@ -23,31 +23,31 @@ const Bazam_Zameer = () => {
             </section>
             <section className="Bazam_Zameer2">
                 <div className="container-fluid  text-center">
-                    <h1 data-aos="fade-up">Digital Resources</h1>
-                    <p className='lead' data-aos="fade-in">Digital Resources provide easy access to Molana Zameer’s speeches, writings, and educational materials — helping followers learn, share, and stay connected in today’s digital world.</p>
+                    <h1 data-aos="fade-in">Digital Resources</h1>
+                    <p className='lead' data-aos="flip-left">Digital Resources provide easy access to Molana Zameer’s speeches, writings, and educational materials helping followers learn, share, and stay connected in today’s digital world.</p>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
                             <div className="box" data-aos="flip-left">
                                 <h3>eBooks</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
+                                <p>Explore a collection of inspiring eBooks by Molana Zameer filled with wisdom, guidance, and knowledge to enlighten hearts and strengthen faith. Read, reflect, and grow.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
                             <div className="box" data-aos="flip-left">
                                 <h3>Audiobooks</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
+                                <p>Listen to the soulful words of Molana Zameer through engaging audiobooks spreading Islamic teachings with clarity, love, and devotion anytime, anywhere.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
                             <div className="box" data-aos="flip-right">
                                 <h3>Videos</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
+                                <p>Watch impactful lectures and motivational talks by Molana Zameer — bringing Islamic knowledge to life through digital learning and spiritual connection.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
                             <div className="box" data-aos="flip-right">
                                 <h3>Magazines</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum saepe asperiores necessitatibus eligendi, nostrum ut quidem et fugit magni impedit.</p>
+                                <p>Discover thoughtfully written Islamic magazines by Molana Zameer covering faith, morality, and modern challenges with wisdom and beautiful expression.</p>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ const Bazam_Zameer = () => {
             </section>
             <section className="Bazam_Zameer3">
                 <div className="container-fluid">
-                    <h1>News and Events</h1>
-                    <p className='lead'>Stay updated with the latest news and events of Molana Zameer’s mission. Explore upcoming gatherings, community activities, and spiritual sessions that aim to spread knowledge, unity, and peace among people.</p>
+                    <h1 data-aos="flip-left">News and Events</h1>
+                    <p className='lead' data-aos="flip-left">Stay updated with the latest news and events of Molana Zameer’s mission. Explore upcoming gatherings, community activities, and spiritual sessions that aim to spread knowledge, unity, and peace among people.</p>
                     <hr />
                     <Bazam_Evants />
                 </div>

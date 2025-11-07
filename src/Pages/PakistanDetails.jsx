@@ -15,7 +15,6 @@ const PakistanDetails = () => {
             <section className="PakistanDetails1">
                 <div className="container-fluid">
                     <div className="container">
-                        <img src="https://ik.imagekit.io/hmdcfponi/Shabbir%20Ahmed/logo?updatedAt=1761638929723" className="img-fluid" />
                         <h2>Allama Shabbir Ahmad Usmani  The Guiding Light of Pakistan</h2>
                         <p>Allama Shabbir Ahmad Usmani (RA) was a great scholar and spiritual leader who first hoisted Pakistan’s national flag and led Quaid-e-Azam’s funeral prayer. His devotion, faith, and vision laid the spiritual foundation of Pakistan and continue to inspire generations.</p>
                     </div>

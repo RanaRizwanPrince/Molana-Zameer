@@ -16,12 +16,12 @@ const Regestration = () => {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/2?updatedAt=1760962753016",
             h1: "Maulana Shabbir Ahmed Usmani",
             paragraph: "Heartiest congratulations to the 1st Position Holder! Your outstanding achievement earns you a brand-new, powerful Laptop for future success.",
-            link: "/Maulana_Zameer_Ahmed_Qureshi",
+            link: "/Maulana_Shabbir_Ahmed_Usmani",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/1?updatedAt=1760962753584",
             h1: "Allama Muhammad Yousuf Banuri",
             paragraph: "Congratulations to the brilliant 2nd Position Holder! We honor your hard work by presenting you with a state-of-the-art Laptop.",
-            link: "/Maulana_Zameer_Ahmed_Qureshi",
+            link: "/Allama_Muhammad_Yousuf_Banuri",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Regestration/3?updatedAt=1760962754353",
             h1: "Maulana Zameer Ahmed Qureshi",

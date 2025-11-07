@@ -11,18 +11,18 @@ const Home = () => {
         {
             img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1762098680816",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "1st Inamullah",
-            paragraph: "Heartiest congratulations to the 1st Position Holder! Your outstanding achievement earns you a brand-new, powerful Laptop for future success.",
+            h1: "1st Position Inamullah",
+            paragraph: "Hard work always pays off! The 1st position student was awarded a brand-new laptop — a gift to empower their journey of knowledge and success.",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762098680394",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "2nd Ehtesham-ul-Haq",
-            paragraph: "Congratulations to the brilliant 2nd Position Holder! We honor your hard work by presenting you with a state-of-the-art Laptop.",
+            h1: "2nd Position Ehtesham-ul-Haq",
+            paragraph: "The talented 2nd position student received an Ultra Pro Max Watch — a perfect reminder that every second counts on the path to achievement!",
         }, {
             img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762098680295",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
-            h1: "3rd Muhammad Saffron",
-            paragraph: "A huge well done to the dedicated 3rd Position Holder! Your efforts are rewarded with a high-quality Laptop prize.",
+            h1: "3rd Position Muhammad Saffron",
+            paragraph: "The hardworking 3rd position student was gifted an Android Watch a token of appreciation for their dedication, passion, and well-deserved success.",
         },
     ]
     return (
@@ -33,7 +33,6 @@ const Home = () => {
                     <div className="col-lg-8 offset-lg-2">
                         <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" className='img-fluid' alt="Main Logo" />
                         <img src="https://ik.imagekit.io/hmdcfponi/Home/banner-ayat?updatedAt=1758795387573" alt="Banner Ayat" className='img-fluid' />
-                        <h1>O believers!</h1>
                         <p className='lead'>Today, amidst the noise of the decline, division and anxiety of the Ummah, we are hearing a voice again — the voice that arose from the solitude of the Maltese prison, the voice that came from the depths of the heart of Sheikh-ul-Hind Maulana Mahmud-ul-Hasan. This is the voice that reminds us that the cure for the Ummah does not lie in the noise of any slogan, any government or any movement, but in the light of the Quran and in the relationship of mutual love.</p>
                     </div>
                 </div>
@@ -41,7 +40,7 @@ const Home = () => {
             <section className="Pillars">
                 <div className="container-fluid">
                     <h1 data-aos="fade-up">5 PillARS OF ISLAM</h1>
-                    <p className='lead' data-aos="fade-in">Lorem ipsum dolor sit amet consectetur. Eget ornare ac eleifend leo mauris suspendisse. Bibendum suspendisse proin aliquet porttitor.</p>
+                    <p className='lead' data-aos="fade-in">The Five Pillars of Islam form the foundation of a true Muslim’s faith and practice Shahadah, Salah, Zakat, Sawm, and Hajj guiding believers toward spiritual strength, discipline, and unity in devotion to Allah.</p>
                     <div className="row">
                         <div className="row text-center">
                             <div className="col-6 col-md my-2 d-flex align-items-stretch">
@@ -139,7 +138,7 @@ const Home = () => {
                                 <div key={index} className="col-lg-4 col-md-6 my-2">
                                     <img src={data.img} className='w-100' data-aos="flip-right" />
                                     <div className="box" data-aos="fade-up">
-                                        <h2>{data.h1}</h2>
+                                        <h5>{data.h1}</h5>
                                         <p>{data.paragraph}</p>
                                     </div>
                                 </div>

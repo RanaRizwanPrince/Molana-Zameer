@@ -12,8 +12,8 @@ const Footer = () => {
             <section className="footer">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" alt="Footer Logo" className='img-fluid' />
+                        <div className="col-lg-4 col-md-4 my-3">
+                            <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" alt="Footer Logo" className='img-fluid' data-aos="flip-left" />
                             <p>Discover the essence of faith and community at Siraj Islamic Center. We are dedicated to nurturing spiritual growth, fostering unity, and providing meaningful services for all. Guided by the Qur’an and Sunnah, we strive to inspire, educate, and connect hearts.</p>
                             <div className="icon">
                                 <NavLink target='_blank' className="link" to="https://www.facebook.com/molanazameer2025"><FaFacebook /></NavLink>
@@ -23,14 +23,14 @@ const Footer = () => {
                                 <NavLink target='_blank' className="link" to="https://www.tiktok.com/@molanazameer"><FaTiktok /></NavLink>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">
+                        <div className="col-lg-4 col-md-4 my-3">
                             <h1>Contact Info</h1>
                             <p> 📍  Murree Road Bagnoter Abbottabad</p>
                             <p>🎧   +92 327 600 9702 </p>
                             <p>📞   +92 313 510 4001 </p>
                             <p>📩   info@molanazameer.com</p>
                         </div>
-                        <div className="col-lg-4 col-md-4 my-3" data-aos="fade-up">
+                        <div className="col-lg-4 col-md-4 my-3">
                             <h1>Quick Links</h1>
                             <NavLink className="link" to="/">✔ Home</NavLink> <br />
                             <NavLink className="link" to="/About">✔ About Us</NavLink> <br />

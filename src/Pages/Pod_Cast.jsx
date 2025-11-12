@@ -64,7 +64,7 @@ const Pod_Cast = () => {
                             <>
                                 <div className="col-lg-2 col-md-4 col-sm-6 my-3 d-flex align-items-stretch" data-aos="flip-right">
                                     <div className="card">
-                                        <img src="https://live.themewild.com/yocast/assets/img/episode/01.jpg" className="img-fluid" alt="..." />
+                                        <img src={data.img} className="img-fluid" alt="..." />
                                         <div class="card-body">
                                             <h5>{data.title}</h5>
                                             <p>{data.description}</p>

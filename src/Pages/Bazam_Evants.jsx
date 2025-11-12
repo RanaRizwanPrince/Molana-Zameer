@@ -2,170 +2,87 @@ import { useState, useEffect } from "react";
 const Bazam_Evants = () => {
     const Bazam_Zameer = [
         {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/1?updatedAt=1762166720224",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/1?updatedAt=1762764258819",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/2?updatedAt=1762166719196",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/2?updatedAt=1762764258397",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/3?updatedAt=1762166718333",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/3?updatedAt=1762764258829",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/4?updatedAt=1762166717512",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/4?updatedAt=1762764257796",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/5?updatedAt=1762166716248",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/5?updatedAt=1762764257940",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/6?updatedAt=1762166715404",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/6?updatedAt=1762764259150",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762166712764",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762764256649",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/8?updatedAt=1762166711902",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/8?updatedAt=1762764259063",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/9?updatedAt=1762166709821",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/9?updatedAt=1762764258645",
         },
     ];
     const Highlights = [
         {
-            title: "Daily Event Recaps",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/6?updatedAt=1762764259150",
         }, {
-            title: "Photo of the Day",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762764256649",
         }, {
-            title: "Video Highlights",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Key Quotes",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Featured Moment",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/8?updatedAt=1762764259063",
         },
     ];
     const Inspiring = [
         {
-            title: "Conferences",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/4?updatedAt=1762764257796",
         }, {
-            title: "Seminars",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/5?updatedAt=1762764257940",
         }, {
-            title: "Youth Meets",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/6?updatedAt=1762764259150",
         }, {
-            title: "Guest Sessions",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Guest Sessions",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Open Discussions",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762764256649",
         },
     ];
     const Zameer_Awards = [
         {
-            title: "1st Position",
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1762098680816",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/1?updatedAt=1762764258819",
         }, {
-            title: "2nd Student",
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762098680394",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/2?updatedAt=1762764258397",
         }, {
-            title: "3rd Student",
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762098680295",
-        }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/ssss?updatedAt=1761999717094",
-        }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/ssss?updatedAt=1761999717094",
-        }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/ssss?updatedAt=1761999717094",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/3?updatedAt=1762764258829",
         },
     ];
     const Community = [
         {
-            title: "Public Lectures",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/5?updatedAt=1762764257940",
         }, {
-            title: "Guest Speakers",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/6?updatedAt=1762764259150",
         }, {
-            title: "Panel Discussions",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Awareness Programs",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Educational Debates",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762764256649",
         },
     ];
     const Knowledge = [
         {
-            title: "Workshops",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/7?updatedAt=1762764256649",
         }, {
-            title: "Training Programs",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/8?updatedAt=1762764259063",
         }, {
-            title: "Research Discussions",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Study Circles",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Skill Development",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/9?updatedAt=1762764258645",
         },
     ];
     const Cultural = [
         {
-            title: "Naat & Qira’at Nights",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/4?updatedAt=1762764257796",
         }, {
-            title: "Literary Gatherings",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Theater & Drama",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Art & Culture Exhibits",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Traditional Music Events",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/5?updatedAt=1762764257940",
         },
     ];
     const Monthly_Digest = [
         {
-            title: "Monthly Reports",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Event Summaries",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Highlights Gallery",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Community Growth Updates",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Upcoming Plans",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/1?updatedAt=1762764258819",
         },
     ];
     const Announcements = [
         {
-            title: "Event Invitations",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Policy Updates",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Holiday Notices",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Important Alerts",
-            img: "https://placehold.co/400",
-        }, {
-            title: "Volunteer Calls",
-            img: "https://placehold.co/400",
+            img: "https://ik.imagekit.io/hmdcfponi/Bazam%20Zameer/News/Bazam_Zameer/9?updatedAt=1762764258645",
         },
     ];
     const [selectedData, setSelectedData] = useState("");

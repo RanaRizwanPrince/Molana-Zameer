@@ -9,17 +9,17 @@ import PrayerTimes from '../Components/PrayerTimes';
 const Home = () => {
     const Home3 = [
         {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1762098680816",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/1?updatedAt=1762692435104",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
             h1: "1st Position Inamullah",
             paragraph: "Hard work always pays off! The 1st position student was awarded a brand-new laptop — a gift to empower their journey of knowledge and success.",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762098680394",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1762692434775",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
             h1: "2nd Position Ehtesham-ul-Haq",
             paragraph: "The talented 2nd position student received an Ultra Pro Max Watch — a perfect reminder that every second counts on the path to achievement!",
         }, {
-            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762098680295",
+            img: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/3?updatedAt=1762692434823",
             pro: "https://ik.imagekit.io/hmdcfponi/Home/GiftStudent/2?updatedAt=1760957379602",
             h1: "3rd Position Muhammad Saffron",
             paragraph: "The hardworking 3rd position student was gifted an Android Watch a token of appreciation for their dedication, passion, and well-deserved success.",
@@ -84,17 +84,17 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-4 my-2" data-aos="fade-up">
                             <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/1?updatedAt=1762156409538" className="img-fluid img-thumbnail" />
+                                <img src="https://ik.imagekit.io/hmdcfponi/Home/1?updatedAt=1762692254239" className="img-fluid img-thumbnail" />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 my-2" data-aos="fade-up">
                             <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/3?updatedAt=1762156409613" className="img-fluid img-thumbnail" />
+                                <img src="https://ik.imagekit.io/hmdcfponi/Home/2?updatedAt=1762692272112" className="img-fluid img-thumbnail" />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 my-2" data-aos="fade-up">
                             <div className="box">
-                                <img src="https://ik.imagekit.io/hmdcfponi/Home/2?updatedAt=1762156409731" className="img-fluid img-thumbnail" />
+                                <img src="https://ik.imagekit.io/hmdcfponi/Home/3?updatedAt=1762692286454" className="img-fluid img-thumbnail" />
                             </div>
                         </div>
                     </div>

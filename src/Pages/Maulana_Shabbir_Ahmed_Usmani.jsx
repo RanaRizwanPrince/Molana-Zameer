@@ -16,7 +16,7 @@ const Maulana_Shabbir_Ahmed_Usmani = () => {
                 <div className="container-fluid">
                     <img src="https://ik.imagekit.io/hmdcfponi/Shabbir%20Ahmed/logo?updatedAt=1761638929723" className="img-fluid" />
                     <h1>Maulana Shabbir Ahmed Usmani A Spiritual Leader, Scholar, and Preacher of Islam</h1>
-                    <p>Maulana Shabbir Ahmed Usmani is a renowned Islamic scholar and spiritual guide who has dedicated his life to spreading the teachings of Islam and promoting moral awareness among people. His sermons are known for their depth in Quranic knowledge, simplicity of expression, and heartfelt examples that inspire listeners. This page is devoted to sharing his biography, notable speeches, writings, and educational work so that future generations can benefit from his spiritual and scholarly legacy.</p>
+                    <p className='lead'>Maulana Shabbir Ahmed Usmani is a renowned Islamic scholar and spiritual guide who has dedicated his life to spreading the teachings of Islam and promoting moral awareness among people. His sermons are known for their depth in Quranic knowledge, simplicity of expression, and heartfelt examples that inspire listeners. This page is devoted to sharing his biography, notable speeches, writings, and educational work so that future generations can benefit from his spiritual and scholarly legacy.</p>
                 </div>
             </section>
             <section className="MSAU2">

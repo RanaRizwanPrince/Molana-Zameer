@@ -916,19 +916,27 @@ p {
         color: var(--brown);
     }
 
-    .icon {
-        display: flex;
-        justify-content: space-around;
+    .card {
+        transition: ease-in-out 0.50s;
 
-        .link {
-            background-color: var(--brown);
-            color: var(--white);
-            width: 40px;
-            height: 40px;
+        .icon {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50px;
+            justify-content: space-between;
+
+            .link {
+                background-color: var(--brown);
+                color: var(--white);
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.04);
         }
     }
 }

@@ -4,7 +4,7 @@ import { Teamsection } from "../Utils/Most_Popular_EpisodesAPI";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { IoLogoLinkedin } from "react-icons/io5";
+import { FaTiktok } from "react-icons/fa";
 const Team = () => {
     useEffect(() => {
         document.title = 'Team | Molana Zameer – Dedicated Members Behind Our Mission of Faith';
@@ -44,21 +44,16 @@ const Team = () => {
                             <>
                                 <div key={index} className="col-lg-4 col-md-6 my-2">
                                     <div class="card mb-3">
-                                        <div class="row g-0">
-                                            <div class="col-md-4">
-                                                <img src={data.img} class="img-fluid rounded-start" />
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body">
-                                                    <h5>{data.name}</h5>
-                                                    <p>{data.paragraph}</p>
-                                                    <div className="icon">
-                                                        <NavLink className="link" to=""><FaFacebook /></NavLink>
-                                                        <NavLink className="link" to=""><FaInstagram /></NavLink>
-                                                        <NavLink className="link" to=""><FaWhatsapp /></NavLink>
-                                                        <NavLink className="link" to=""><IoLogoLinkedin /></NavLink>
-                                                    </div>
-                                                </div>
+                                        <img src={data.img} class="img-fluid img-thumbnail" />
+                                        <div class="card-body">
+                                            <h3>{data.name}</h3>
+                                            <h5>{data.desig}</h5>
+                                            <p>{data.paragraph}</p>
+                                            <div className="icon">
+                                                <a className="link" target="_blank" href={data.face}><FaFacebook /></a>
+                                                <a className="link" target="_blank" href={data.insta}><FaInstagram /></a>
+                                                {/* <a className="link" target="_blank" href={data.whatsapp}><FaWhatsapp /></a> */}
+                                                <a className="link" target="_blank" href={data.tiktok}><FaTiktok /></a>
                                             </div>
                                         </div>
                                     </div>

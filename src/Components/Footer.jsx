@@ -10,6 +10,7 @@ const Footer = () => {
     return (
         <div>
             <section className="footer">
+                <img src="https://ik.imagekit.io/hmdcfponi/Contact/footer_border?updatedAt=1763202065007" className="w-100 img-fluid" />
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-4 col-md-4 my-3">
@@ -25,10 +26,10 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-4 col-md-4 my-3">
                             <h1>Contact Info</h1>
-                            <p> 📍  Murree Road Bagnoter Abbottabad</p>
-                            <p>🎧   +92 327 600 9702 </p>
-                            <p>📞   +92 313 510 4001 </p>
-                            <p>📩   info@molanazameer.com</p>
+                            <p> 📍 College Road Shamim Market Near Fiaz Apartment Mandian Nari Road, Abbottabad</p>
+                            <p>🎧  +92 327 600 9702 </p>
+                            <p>📞  +92 313 510 4001 </p>
+                            <p>📩  info@molanazameer.com</p>
                         </div>
                         <div className="col-lg-4 col-md-4 my-3">
                             <h1>Quick Links</h1>

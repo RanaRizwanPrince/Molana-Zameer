@@ -349,7 +349,6 @@ p {
 .footer {
     color: var(--white);
     width: 100%;
-    padding: 30px 0px;
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
@@ -942,15 +941,44 @@ p {
 }
 
 .Contact1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://ik.imagekit.io/hmdcfponi/About/banner?updatedAt=1758883843727");
+    background-image: url("https://ik.imagekit.io/hmdcfponi/Contact/head?updatedAt=1763203470292");
     background-position: center;
     width: 100%;
     color: var(--brown);
+    margin-top: 65px;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.contact2 {
+    padding: 50px 0px;
+
+    h1 {
+        color: var(--brown);
+    }
+
+    .box {
+        padding: 30px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: var(--brown);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://ik.imagekit.io/hmdcfponi/Contact/Pattern?updatedAt=1763298877791");
+        color: var(--white);
+    }
+}
+
+.contact4 {
+    background-color: red;
+    padding: 50px 0px;
+
+    .btn {
+        background-color: var(--brown);
+        color: var(--white);
+        font-weight: bold;
+    }
 }
 
 .Rhead {

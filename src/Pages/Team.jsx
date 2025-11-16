@@ -47,7 +47,7 @@ const Team = () => {
                                         <img src={data.img} class="img-fluid img-thumbnail" />
                                         <div class="card-body">
                                             <h3>{data.name}</h3>
-                                            <h5>{data.desig}</h5>
+                                            <h6>{data.desig}</h6>
                                             <p>{data.paragraph}</p>
                                             <div className="icon">
                                                 <a className="link" target="_blank" href={data.face}><FaFacebook /></a>

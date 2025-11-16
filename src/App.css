@@ -971,8 +971,11 @@ p {
 }
 
 .contact4 {
-    background-color: red;
     padding: 50px 0px;
+
+    h1 {
+        color: var(--brown);
+    }
 
     .btn {
         background-color: var(--brown);

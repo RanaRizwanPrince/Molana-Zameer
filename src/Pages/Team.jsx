@@ -42,7 +42,7 @@ const Team = () => {
                     <div className="row">
                         {Teamsection.map((data, index) => (
                             <>
-                                <div key={index} className="col-lg-4 col-md-6 my-2">
+                                <div key={index} className="col-lg-4 col-md-6 my-2 d-flex align-items-stretch">
                                     <div class="card mb-3">
                                         <img src={data.img} class="img-fluid img-thumbnail" />
                                         <div class="card-body">
@@ -52,7 +52,6 @@ const Team = () => {
                                             <div className="icon">
                                                 <a className="link" target="_blank" href={data.face}><FaFacebook /></a>
                                                 <a className="link" target="_blank" href={data.insta}><FaInstagram /></a>
-                                                {/* <a className="link" target="_blank" href={data.whatsapp}><FaWhatsapp /></a> */}
                                                 <a className="link" target="_blank" href={data.tiktok}><FaTiktok /></a>
                                             </div>
                                         </div>

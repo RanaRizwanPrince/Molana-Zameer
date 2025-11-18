@@ -918,6 +918,11 @@ p {
     .card {
         transition: ease-in-out 0.50s;
 
+        h3 {
+            color: var(--brown);
+            border-right: 4px solid var(--brown);
+        }
+
         .icon {
             display: flex;
             justify-content: space-between;

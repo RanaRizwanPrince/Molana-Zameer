@@ -73,7 +73,7 @@ const Navbar = () => {
                         <div className="navicon">
                             <NavLink to="" className="link0" onClick={closeNavbar}><MdLanguage className="link" /></NavLink>
                             <NavLink to="" className="link0" onClick={closeNavbar}><FaHeadphones className="link" /></NavLink>
-                            <NavLink to="" className="link0" onClick={closeNavbar}><FaRegUserCircle className="link" /></NavLink>
+                            <NavLink to="/Login" className="link0" onClick={closeNavbar}><FaRegUserCircle className="link" /></NavLink>
                         </div>
                     </div>
                 </div>

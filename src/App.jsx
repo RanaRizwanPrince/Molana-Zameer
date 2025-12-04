@@ -29,6 +29,13 @@ import Maulana_Shabbir_Ahmed_Usmani from "./Pages/Maulana_Shabbir_Ahmed_Usmani";
 import Allama_Muhammad_Yousuf_Banuri from "./Pages/Allama_Muhammad_Yousuf_Banuri";
 import PakistanDetails from "./Pages/PakistanDetails";
 import Most_Popular_EpisodesAPI from "./Utils/Most_Popular_EpisodesAPI";
+import Login from "./Admin/Pages/Login/Login"
+// Dashboard Link imports
+import Dashboard from "./Admin/Pages/Dashboard/Dashboard";
+import AddProduct from "./Admin/Pages/Products/AddProduct";
+import EditProduct from "./Admin/Pages/Products/EditProduct";
+import ProductList from "./Admin/Pages/Products/ProductList";
+// Dashboard Link imports
 function App() {
   useEffect(() => {
     AOS.init({
@@ -38,34 +45,49 @@ function App() {
       once: false, // true = animation once, false = repeat on scroll
     });
   }, []);
+  const Layout = ({ children }) => (
+    <>
+      <Navbar />
+      {children}
+      <Footer />
+    </>
+  );
   return (
     <>
       {/* <PopupAlert /> */}
       <Preloader />
-      <Navbar />
+      {/* <Navbar /> */}
       <MousEffact />
       <ScrollToTop />
       <Routes>
-        <Route path='*' element={<NotFound />} />
-        <Route path='/' element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Libriri' element={<Libriri />} />
-        <Route path='/Bazam_Zameer' element={<Bazam_Zameer />} />
-        <Route path='/Biogarafi' element={<Biogarafi />} />
-        <Route path='/Pod_Cast' element={<Pod_Cast />} />
-        <Route path='/Team' element={<Team />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Regestration" element={<Regestration />} />
-        <Route path="/Ansar_Shabbir" element={<Ansar_Shabbir />} />
-        <Route path="/Maulana_Zameer_Ahmed_Qureshi" element={<Maulana_Zameer_Ahmed_Qureshi />} />
-        <Route path="/Maulana_Shabbir_Ahmed_Usmani" element={<Maulana_Shabbir_Ahmed_Usmani />} />
-        <Route path="/Allama_Muhammad_Yousuf_Banuri" element={<Allama_Muhammad_Yousuf_Banuri />} />
-        <Route path="/PakistanDetails" element={<PakistanDetails />} />
+        <Route path="Login" element={<Login />} />
+        <Route index path='/' element={<Layout><Home /></Layout>} />
+        <Route exact path='/About' element={<Layout><About /></Layout>} />
+        <Route path='*' element={<Layout><NotFound /></Layout>} />
+        <Route path='/Libriri' element={<Layout><Libriri /></Layout>} />
+        <Route path='/Bazam_Zameer' element={<Layout><Bazam_Zameer /></Layout>} />
+        <Route path='/Biogarafi' element={<Layout><Biogarafi /></Layout>} />
+        <Route path='/Pod_Cast' element={<Layout><Pod_Cast /></Layout>} />
+        <Route path='/Team' element={<Layout><Team /></Layout>} />
+        <Route path="/Contact" element={<Layout><Contact /></Layout>} />
+        <Route path="/Regestration" element={<Layout><Regestration /></Layout>} />
+        <Route path="/Ansar_Shabbir" element={<Layout><Ansar_Shabbir /></Layout>} />
+        <Route path="/Maulana_Zameer_Ahmed_Qureshi" element={<Layout><Maulana_Zameer_Ahmed_Qureshi /></Layout>} />
+        <Route path="/Maulana_Shabbir_Ahmed_Usmani" element={<Layout><Maulana_Shabbir_Ahmed_Usmani /></Layout>} />
+        <Route path="/Allama_Muhammad_Yousuf_Banuri" element={<Layout><Allama_Muhammad_Yousuf_Banuri /></Layout>} />
+        <Route path="/PakistanDetails" element={<Layout><PakistanDetails /></Layout>} />
         {/* All API's  */}
         <Route path="/Most_Popular_EpisodesAPI" element={<Most_Popular_EpisodesAPI />} />
+        {/* Dashboard Routes */}
+        <Route path="Dashboard" element={<Dashboard />}>
+          <Route path="AddProduct" element={<AddProduct />} />
+          <Route path="EditProduct" element={<EditProduct />} />
+          <Route path="ProductList" element={<ProductList />} />
+          {/* <Route path="MainHome" element={<MainHome />} /> */}
+        </Route>
       </Routes>
       <TopToBottom />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

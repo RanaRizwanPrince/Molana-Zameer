@@ -23,6 +23,7 @@ import PopupAlert from "./Components/Popupalert";
 import ScrollToTop from "./Components/ScrollToTop";
 import Contact from "./Pages/Contact";
 import Regestration from "./Pages/Regestration";
+import Conferences from "./Pages/Conferences";
 import Ansar_Shabbir from "./Pages/Ansar_Shabbir";
 import Maulana_Zameer_Ahmed_Qureshi from "./Pages/Maulana_Zameer_Ahmed_Qureshi";
 import Maulana_Shabbir_Ahmed_Usmani from "./Pages/Maulana_Shabbir_Ahmed_Usmani";
@@ -54,7 +55,7 @@ function App() {
   );
   return (
     <>
-      {/* <PopupAlert /> */}
+      <PopupAlert />
       <Preloader />
       {/* <Navbar /> */}
       <MousEffact />
@@ -71,6 +72,7 @@ function App() {
         <Route path='/Team' element={<Layout><Team /></Layout>} />
         <Route path="/Contact" element={<Layout><Contact /></Layout>} />
         <Route path="/Regestration" element={<Layout><Regestration /></Layout>} />
+        <Route path="/Conferences" element={<Layout><Conferences /></Layout>} />
         <Route path="/Ansar_Shabbir" element={<Layout><Ansar_Shabbir /></Layout>} />
         <Route path="/Maulana_Zameer_Ahmed_Qureshi" element={<Layout><Maulana_Zameer_Ahmed_Qureshi /></Layout>} />
         <Route path="/Maulana_Shabbir_Ahmed_Usmani" element={<Layout><Maulana_Shabbir_Ahmed_Usmani /></Layout>} />

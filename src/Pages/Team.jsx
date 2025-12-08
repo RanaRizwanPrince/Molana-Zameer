@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react'
-import { NavLink } from 'react-router-dom';
 import { Teamsection } from "../Utils/Most_Popular_EpisodesAPI";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 const Team = () => {
     useEffect(() => {
@@ -20,19 +18,10 @@ const Team = () => {
         <>
             <section className="team1">
                 <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-7 my-3">
-                            <h1>Welcome to Our Team Page</h1>
-                            <h5>Meet Our Dedicated Team</h5>
-                            <p>At Molana Zameer Foundation, our team is committed to spreading knowledge, guiding the youth, and serving the community with sincerity. Each member plays a vital role in carrying forward our vision of unity, faith, and positive change.</p>
-                            <p>Our team combines experience, dedication, and passion to achieve meaningful results. Together, we work to inspire, educate, and support everyone who visits our foundation, ensuring a positive impact in every initiative we undertake.</p>
-                            <NavLink className="link" to="">Start A Journey</NavLink>
-                        </div>
-                        <div className="col-lg-1"></div>
-                        <div className="col-lg-4 my-3">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Team/1?updatedAt=1762944600521" className="img-fluid" />
-                        </div>
-                    </div>
+                    <h1>Welcome to Our Team Page</h1>
+                    <h5>Meet Our Dedicated Team</h5>
+                    <p>At Molana Zameer Foundation, our team is committed to spreading knowledge, guiding the youth, and serving the community with sincerity. Each member plays a vital role in carrying forward our vision of unity, faith, and positive change.</p>
+                    <p>Our team combines experience, dedication, and passion to achieve meaningful results. Together, we work to inspire, educate, and support everyone who visits our foundation, ensuring a positive impact in every initiative we undertake.</p>
                 </div>
             </section>
             <section className="team2">

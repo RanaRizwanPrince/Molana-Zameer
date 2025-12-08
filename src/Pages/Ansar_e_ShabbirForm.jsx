@@ -14,7 +14,7 @@ const Ansar_e_ShabbirForm = () => {
         <>
             <section className="asform1">
                 <div className="container-fluid">
-                    <div className="box">
+                    <div className="box" data-aos="fade-up">
                         <h1>This Place Belongs to Ansar Shabbir's farm.</h1>
                         <p>Dedicated to carrying forward Allama Shabbir Ahmed Usmani’s vision, Ansar-e-Shabbir stands for faith, unity, and knowledge — guiding the nation toward moral and spiritual strength.</p>
                     </div>

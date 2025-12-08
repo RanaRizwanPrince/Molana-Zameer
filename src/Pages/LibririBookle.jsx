@@ -10,8 +10,8 @@ const LibririBookle = () => {
             <section className="librirbookle">
                 <div className="container-fluid text-center">
                     <div className="col-lg-10 offset-lg-1">
-                        <h1>Bookle Top Books</h1>
-                        <p className="lead">Bookle Top Books brings you a rich collection of knowledge, faith, and literature. Explore timeless writings from renowned scholars, offering guidance, wisdom, and inspiration for readers seeking meaningful learning and spiritual growth.</p>
+                        <h1 data-aos="fade-up">Bookle Top Books</h1>
+                        <p className="lead" data-aos="fade-up">Bookle Top Books brings you a rich collection of knowledge, faith, and literature. Explore timeless writings from renowned scholars, offering guidance, wisdom, and inspiration for readers seeking meaningful learning and spiritual growth.</p>
                     </div>
                     <Swiper modules={[Autoplay]} autoplay={{ delay: 2000, disableOnInteraction: false }} loop={true} spaceBetween={20} breakpoints={{
                         0: {

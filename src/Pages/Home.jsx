@@ -6,6 +6,7 @@ import { IoHome } from "react-icons/io5";
 import { FaUsers } from "react-icons/fa6";
 import { AiFillProduct } from "react-icons/ai";
 import PrayerTimes from '../Components/PrayerTimes';
+import Bazam_Evants from './Bazam_Evants'
 const Home = () => {
     const Home3 = [
         {
@@ -179,6 +180,14 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="Bazam_Zameer3">
+                <div className="container-fluid">
+                    <h1 data-aos="flip-left">News and Events</h1>
+                    <p className='lead' data-aos="flip-left">Stay updated with the latest news and events of Molana Zameer’s mission. Explore upcoming gatherings, community activities, and spiritual sessions that aim to spread knowledge, unity, and peace among people.</p>
+                    <hr />
+                    <Bazam_Evants />
                 </div>
             </section>
             <section className="gallery">

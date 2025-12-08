@@ -52,13 +52,16 @@ p {
 }
 
 .popup {
-    background: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.0)), url("https://ik.imagekit.io/hmdcfponi/Ansar-e-Shabbir/head?updatedAt=1762781760085");
     padding: 30px;
+    background-position: bottom;
+    background-size: cover;
     border-radius: 12px;
     text-align: center;
     position: relative;
     max-width: 500px;
     width: 90%;
+    color: var(--brown);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     animation: fadeInDown 0.4s ease;
 }
@@ -88,31 +91,6 @@ p {
     }
 }
 
-.countdown {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.countdown div {
-    background: var(--brown);
-    color: var(--white);
-    padding: 10px;
-    border-radius: 8px;
-    min-width: 70px;
-}
-
-.countdown span {
-    font-size: 30px;
-    font-weight: bold;
-    display: block;
-}
-
-.countdown small {
-    color: var(--white);
-}
-
 @keyframes fadeInDown {
     from {
         transform: translateY(-50px);
@@ -138,6 +116,7 @@ p {
 }
 
 .navbar {
+    opacity: 99999;
     padding: 0 !important;
     background-color: var(--black) !important;
 
@@ -163,6 +142,25 @@ p {
         }
     }
 
+    .navicon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 0px;
+
+        .link {
+            background-color: var(--white);
+            padding: 3px;
+            color: var(--black);
+            border-radius: 50px;
+            margin: 0px 15px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.offcanvas-header {
     .navicon {
         display: flex;
         align-items: center;
@@ -434,9 +432,13 @@ p {
             border-bottom: 2px solid var(--white);
         }
     }
+
+    a {
+        color: var(--brown);
+        text-decoration: none;
+    }
 }
 
-/* ////////////////////////////////////////// */
 .About1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/hmdcfponi/Home/banner2?updatedAt=1760960663330");
     background-position: center;
@@ -531,13 +533,7 @@ p {
         }
 
         &:hover {
-            background-color: var(--white);
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-            h3 {
-                color: var(--brown);
-                font-family: h;
-            }
         }
     }
 }
@@ -653,28 +649,27 @@ p {
 }
 
 .Bazam_Zameer2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/flat-arabic-pattern-background_79603-1826.jpg?semt=ais_hybrid&w=740&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 70px 0px;
-    color: var(--white);
+    padding: 50px 0px;
 
     h1 {
         color: var(--brown);
-        text-transform: uppercase;
     }
 
-    .box {
-        padding: 30px;
+    .link {
         background-color: var(--brown);
-        border-radius: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        color: var(--white);
+        text-decoration: none;
     }
 }
 
 .Bazam_Zameer3 {
-    padding: 70px 0px;
+    padding: 50px 0px;
+
+    h1 {
+        color: var(--brown);
+    }
 }
 
 .Evatsbtn {
@@ -701,7 +696,6 @@ p {
     }
 
     .box {
-        background: var(--white);
         border-radius: 10px;
         padding: 0px 7px;
     }
@@ -818,6 +812,10 @@ p {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+
+    img {
+        width: 30%;
+    }
 }
 
 @media (max-width:500px) {
@@ -893,35 +891,18 @@ p {
 }
 
 .team1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://ik.imagekit.io/hmdcfponi/About/banner?updatedAt=1758883843727");
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/hmdcfponi/Ansar-e-Shabbir/head?updatedAt=1762781760085");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 65px;
     width: 100%;
-    color: var(--brown);
-    margin-top: 60px;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-
-    img {
-        animation: opnich 1s linear infinite alternate;
-    }
-
-    .link {
-        background-color: var(--brown);
-        padding: 10px;
-        border-radius: 5px;
-        color: var(--white);
-        text-decoration: none;
-        font-weight: bold;
-    }
-}
-
-@keyframes opnich {
-    to {
-        transform: translateY(20px);
-    }
+    text-align: center;
+    color: var(--brown);
 }
 
 @media (max-width:500px) {

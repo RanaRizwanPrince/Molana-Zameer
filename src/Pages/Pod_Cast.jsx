@@ -26,25 +26,25 @@ const Pod_Cast = () => {
                         <h1>Featured Islamic Podcasts</h1>
                         <p>Explore inspiring podcasts featuring Molana Zameer and distinguished scholars sharing deep Islamic knowledge, life guidance, and spiritual reflections for all listeners.</p>
                         <div className="row">
-                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2">
+                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2" data-aos="fade-up">
                                 <div className="box">
                                     <h4>Zameer Voice of Wisdom</h4>
                                     <p>Molana Zameer shares enlightening talks on faith, character building, and real-life Islamic teachings that guide today’s generation toward truth.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2">
+                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2" data-aos="fade-up">
                                 <div className="box">
                                     <h4>Ulema Discussion Panel</h4>
                                     <p>A group of respected scholars engage in thoughtful conversations on modern Islamic issues, guiding listeners toward spiritual understanding and unity.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2">
+                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2" data-aos="fade-up">
                                 <div className="box">
                                     <h4>Youth and Islam</h4>
                                     <p>Focused on empowering the youth, this podcast discusses challenges faced by young Muslims and offers Islamic solutions with motivational insights.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2">
+                            <div className="col-lg-3 col-md-6 d-flex align-items-center my-2" data-aos="fade-up">
                                 <div className="box">
                                     <h4>Quranic Reflections</h4>
                                     <p>A beautiful series explaining Quranic verses with deep meanings, helping listeners connect their hearts to Allah through knowledge and reflection.</p>
@@ -56,9 +56,9 @@ const Pod_Cast = () => {
             </section>
             <section className="Pod_Cast3">
                 <div className="container-fluid">
-                    <h6> Our Episodes</h6>
-                    <h1>Most Popular Episodes</h1>
-                    <hr />
+                    <h6 data-aos="fade-up">Our Episodes</h6>
+                    <h1 data-aos="fade-up">Most Popular Episodes</h1>
+                    <hr data-aos="fade-up" />
                     <div className="row">
                         {Most_Popular_EpisodesAPI.map((data, index) => (
                             <>

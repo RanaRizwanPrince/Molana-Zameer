@@ -53,10 +53,10 @@ const Libriri = () => {
             </section>
             <section className="Libriri2">
                 <div className="container-fluid">
-                    <h1>Exceptional Service & Guaranteed Confidence!</h1>
-                    <p className='lead'>Shop confidently! We offer a Money Back Guarantee with easy Return & Refund and Secure Payment. Our Quality Support is here 24/7, and you get exclusive Daily Offers just for subscribing. Experience hassle-free shopping today!</p>
+                    <h1 data-aos="fade-up">Exceptional Service & Guaranteed Confidence!</h1>
+                    <p className='lead' data-aos="fade-up">Shop confidently! We offer a Money Back Guarantee with easy Return & Refund and Secure Payment. Our Quality Support is here 24/7, and you get exclusive Daily Offers just for subscribing. Experience hassle-free shopping today!</p>
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 my-2">
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
                             <div className="box">
                                 <div className="icon">
                                     <FaShippingFast />
@@ -65,7 +65,7 @@ const Libriri = () => {
                                 <p className='lead'>Money back guarantee</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2">
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
                             <div className="box">
                                 <div className="icon">
                                     <RiSecurePaymentFill />
@@ -74,7 +74,7 @@ const Libriri = () => {
                                 <p className='lead'>30% off by subscribing</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2">
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
                             <div className="box">
                                 <div className="icon">
                                     <MdOutlineSupportAgent />
@@ -83,7 +83,7 @@ const Libriri = () => {
                                 <p className='lead'>Always online 24/7</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2">
+                        <div className="col-lg-3 col-md-6 my-2" data-aos="fade-up">
                             <div className="box">
                                 <div className="icon">
                                     <SiDailymotion />
@@ -98,8 +98,8 @@ const Libriri = () => {
             <section className="Libriri3">
                 <div className="container-fluid">
                     <div className="col-lg-10 offset-lg-1">
-                        <h1>Top Categories Book</h1>
-                        <p className='lead'>Discover our Top Categories Books, carefully selected to guide readers through knowledge, faith, and inspiration. From Islamic teachings and history to thought-provoking literature, these books highlight the wisdom of renowned scholars and offer timeless lessons for every reader.</p>
+                        <h1 data-aos="fade-up">Top Categories Book</h1>
+                        <p className='lead' data-aos="fade-up">Discover our Top Categories Books, carefully selected to guide readers through knowledge, faith, and inspiration. From Islamic teachings and history to thought-provoking literature, these books highlight the wisdom of renowned scholars and offer timeless lessons for every reader.</p>
                     </div>
                     <LibririCarousel />
                 </div>

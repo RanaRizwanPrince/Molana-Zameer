@@ -1,5 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 const Allama_Muhammad_Yousuf_Banuri = () => {
+    useEffect(() => {
+        document.title = 'Allama Muhammad Yousuf Banuri | Life, Legacy & Islamic Scholarly Contributions';
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute(
+                "content",
+                "Learn about Allama Muhammad Yousuf Banuri, a distinguished Islamic scholar whose life, teachings, and legacy continue to guide and inspire generations."
+            );
+        }
+    }, []);
     return (
         <>
             <section className="AMYB1">

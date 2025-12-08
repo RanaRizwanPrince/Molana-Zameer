@@ -26,22 +26,22 @@ const Ansar_Shabbir = () => {
                     <p>Ansar-e-Shabbir represents the true spirit of Allama Shabbir Ahmed Usmani’s mission — a movement rooted in faith, knowledge, and unity. Inspired by his vision of an Islamic and ideological Pakistan, Ansar-e-Shabbir strives to preserve the moral, spiritual, and intellectual legacy he left behind. This group serves as torchbearers of his teachings, promoting education, Islamic values, and national integrity. Through dedication and collective effort, Ansar-e-Shabbir continues to uphold Allama Usmani’s dream of a strong, united, and faith-driven nation.</p>
                     <div className="row d-flex align-items-center">
                         <div className="col-lg-7 col-md-7 my-2 text-start">
-                            <h1>Ansar-e-Shabbir</h1>
-                            <p>1, Loyal to the mission of Allama Shabbir Ahmad Usmani and the bearers of his intellectual heritage.</p>
-                            <p>2, Ansar-e-Shabbir, A metaphor for knowledge and action, faith and unity</p>
-                            <p>3, Ansar-e-Shabbir, The ideological guardian of the establishment of Pakistan, the guardian of the Islamic constitution.</p>
-                            <p>4, Ansar-e-Shabbir, The practical continuation of Usmani’s thought, a pledge of unity of the Ummah</p>
-                            <p>5, Ansar-e-Shabbir, The caravan that wants to connect Pakistan with its intellectual foundations</p>
-                            <p>6, Ansar-e-Shabbir, The new connection between Sharia, politics, and the unity of the Ummah</p>
-                            <p>7, Ansar-e-Shabbir, Unity of the Ummah, the system of Islam Unity, sacrifice, perseverance this is the message of Ansar-e-Shabbir!</p>
-                            <h1>Slogans</h1>
-                            <p>Unity is our message, Shabbir is our Imam <br />
+                            <h1 data-aos="fade-up">Ansar-e-Shabbir</h1>
+                            <p data-aos="fade-up">1, Loyal to the mission of Allama Shabbir Ahmad Usmani and the bearers of his intellectual heritage.</p>
+                            <p data-aos="fade-up">2, Ansar-e-Shabbir, A metaphor for knowledge and action, faith and unity</p>
+                            <p data-aos="fade-up">3, Ansar-e-Shabbir, The ideological guardian of the establishment of Pakistan, the guardian of the Islamic constitution.</p>
+                            <p data-aos="fade-up">4, Ansar-e-Shabbir, The practical continuation of Usmani’s thought, a pledge of unity of the Ummah</p>
+                            <p data-aos="fade-up">5, Ansar-e-Shabbir, The caravan that wants to connect Pakistan with its intellectual foundations</p>
+                            <p data-aos="fade-up">6, Ansar-e-Shabbir, The new connection between Sharia, politics, and the unity of the Ummah</p>
+                            <p data-aos="fade-up">7, Ansar-e-Shabbir, Unity of the Ummah, the system of Islam Unity, sacrifice, perseverance this is the message of Ansar-e-Shabbir!</p>
+                            <h1 data-aos="fade-up">Slogans</h1>
+                            <p data-aos="fade-up">Unity is our message, Shabbir is our Imam <br />
                                 Long live the thought of Usmani! Long live the Ansar-e-Shabbir <br />
                                 We are the Ansar-e-Shabbir - the soldiers of religion and constitution <br />
                                 We are the Ansar of Shabbir - the mourners of religion and constitution! <br />
                                 The pen is our weapon, the thought of Shabbir is our motto</p>
                         </div>
-                        <div className="col-lg-5 col-md-5 my-2">
+                        <div className="col-lg-5 col-md-5 my-2" data-aos="fade-up">
                             <img src="https://ik.imagekit.io/hmdcfponi/Ansar-e-Shabbir/1?updatedAt=1762774668684" alt="Image" className="w-100 img-thumbnail" />
                         </div>
                     </div>

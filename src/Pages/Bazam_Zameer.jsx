@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Bazam_Evants from './Bazam_Evants'
+import { NavLink } from 'react-router-dom';
 import Bazam_Featured_Author from './Bazam_Featured_Author'
 const Bazam_Zameer = () => {
     useEffect(() => {
@@ -22,43 +22,40 @@ const Bazam_Zameer = () => {
                 </div>
             </section>
             <section className="Bazam_Zameer2">
-                <div className="container-fluid  text-center">
-                    <h1 data-aos="fade-in">Digital Resources</h1>
-                    <p className='lead' data-aos="flip-left">Digital Resources provide easy access to Molana Zameer’s speeches, writings, and educational materials helping followers learn, share, and stay connected in today’s digital world.</p>
+                <div className="container-fluid">
+                    <h1>All Conferences   Inspiring & Insightful Gatherings</h1>
+                    <p>This section showcases all our memorable conferences! Here, you can explore past and upcoming academic and thought-provoking events. Each conference offers knowledge, guidance, and inspiration. Stay with us and experience the highlights of these meaningful gatherings!</p>
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="flip-left">
-                                <h3>eBooks</h3>
-                                <p>Explore a collection of inspiring eBooks by Molana Zameer filled with wisdom, guidance, and knowledge to enlighten hearts and strengthen faith. Read, reflect, and grow.</p>
+                        <div className="col-lg-4 col-md-4 my-2 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/hmdcfponi/Conferences/1?updatedAt=1765190181410" className="img-fluid img-thumbnail" alt="..." />
+                                <div class="card-body">
+                                    <h5>Yadgar Aslaf Conference</h5>
+                                    <p><b>Yadgar Aslaf Conference</b> was successfully held on <b>October 30, 2025</b>, at Jalal Baba Auditorium, Abbottabad. The event offered deep knowledge, spiritual inspiration, and valuable insights into the character and services of our ancestors. It left a lasting impact on attendees and broadened their intellectual perspective. Read more below for details.</p>
+                                    <NavLink target='_rizwan' to="https://www.youtube.com/@Zameer-e2t/playlists" className="link">Read More</NavLink>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="flip-left">
-                                <h3>Audiobooks</h3>
-                                <p>Listen to the soulful words of Molana Zameer through engaging audiobooks spreading Islamic teachings with clarity, love, and devotion anytime, anywhere.</p>
+                        <div className="col-lg-4 col-md-4 my-2 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/hmdcfponi/Conferences/2?updatedAt=1765191448137" className="img-fluid img-thumbnail" alt="..." />
+                                <div class="card-body">
+                                    <h5>Allama Shabbir Ahmed Usmani Conference</h5>
+                                    <p><b>Allama Shabbir Ahmed Usmani Conference</b> will be organized by Bazm Zameer Abbottabad on <b>December 13, 2025</b>. The event pays tribute to Allama Usmani’s scholarly legacy, enlightened thinking, and national service. It will bring together scholars, students, and researchers, providing guidance, research opportunities, and meaningful dialogue. The program promises to be an informative, dignified, and impactful experience.</p>
+                                    <NavLink target='_rizwan' to="https://youtube.com/@zameer-e2t?si=xwpa4yxDYZXo7sS_" className="link">Read More</NavLink>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="flip-right">
-                                <h3>Videos</h3>
-                                <p>Watch impactful lectures and motivational talks by Molana Zameer — bringing Islamic knowledge to life through digital learning and spiritual connection.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 my-2 d-flex align-items-stretch">
-                            <div className="box" data-aos="flip-right">
-                                <h3>Magazines</h3>
-                                <p>Discover thoughtfully written Islamic magazines by Molana Zameer covering faith, morality, and modern challenges with wisdom and beautiful expression.</p>
+                        <div className="col-lg-4 col-md-4 my-2 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/hmdcfponi/Conferences/3?updatedAt=1765196033174" className="img-fluid img-thumbnail" alt="..." />
+                                <div class="card-body">
+                                    <h5>Ghulam Yahya Hashmi Conference</h5>
+                                    <p>The <b>Ghulam Yahya Hashmi Conference</b> is scheduled for <b>July 2026</b>, with the final date to be <b>Announced Soon</b>. This upcoming event will highlight his intellectual legacy, inspiring thought, and contributions to society. Scholars, students, and participants will gather for meaningful dialogue, learning, and reflection. More details will be shared shortly.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section className="Bazam_Zameer3">
-                <div className="container-fluid">
-                    <h1 data-aos="flip-left">News and Events</h1>
-                    <p className='lead' data-aos="flip-left">Stay updated with the latest news and events of Molana Zameer’s mission. Explore upcoming gatherings, community activities, and spiritual sessions that aim to spread knowledge, unity, and peace among people.</p>
-                    <hr />
-                    <Bazam_Evants />
                 </div>
             </section>
             <section className="Bazam_Zameer4">

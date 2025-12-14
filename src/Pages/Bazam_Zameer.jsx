@@ -32,7 +32,7 @@ const Bazam_Zameer = () => {
                                 <div class="card-body">
                                     <h5>Yadgar Aslaf Conference</h5>
                                     <p><b>Yadgar Aslaf Conference</b> was successfully held on <b>October 30, 2025</b>, at Jalal Baba Auditorium, Abbottabad. The event offered deep knowledge, spiritual inspiration, and valuable insights into the character and services of our ancestors. It left a lasting impact on attendees and broadened their intellectual perspective. Read more below for details.</p>
-                                    <NavLink target='_rizwan' to="https://www.youtube.com/@Zameer-e2t/playlists" className="link">Read More</NavLink>
+                                    <NavLink target='_rizwan' to="https://youtube.com/playlist?list=PLBfasRK6U7Q_XlFMX5XXdbJOuBKgR8xse&si=9alMlnS3FpW11Eor" className="link">Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Bazam_Zameer = () => {
                                 <div class="card-body">
                                     <h5>Allama Shabbir Ahmed Usmani Conference</h5>
                                     <p><b>Allama Shabbir Ahmed Usmani Conference</b> will be organized by Bazm Zameer Abbottabad on <b>December 13, 2025</b>. The event pays tribute to Allama Usmani’s scholarly legacy, enlightened thinking, and national service. It will bring together scholars, students, and researchers, providing guidance, research opportunities, and meaningful dialogue. The program promises to be an informative, dignified, and impactful experience.</p>
-                                    <NavLink target='_rizwan' to="https://youtube.com/@zameer-e2t?si=xwpa4yxDYZXo7sS_" className="link">Read More</NavLink>
+                                    <NavLink target='_rizwan' to="https://youtube.com/playlist?list=PLBfasRK6U7Q9o8Q1_JAijefVqbUEyTpgy&si=emoVYol1kQ95lC-l" className="link">Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -60,6 +60,13 @@ const Bazam_Zameer = () => {
             </section>
             <section className="Bazam_Zameer4">
                 <Bazam_Featured_Author />
+            </section>
+            <section className="Bazam_Zameer2">
+                <div className="container-fluid">
+                    <h1>Speeches by distinguished guests</h1>
+                    <p>This section features inspiring speeches delivered by our distinguished guests, highlighting their valuable insights, experiences, and guidance. These addresses reflect knowledge, leadership, and a commitment to positive change, making this platform a source of learning and motivation for all visitors.</p>
+
+                </div>
             </section>
         </>
     )

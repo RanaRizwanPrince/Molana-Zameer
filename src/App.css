@@ -190,7 +190,7 @@ p {
     align-items: center;
 
     .box {
-        background-color: green;
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         padding: 10px;
 
@@ -202,6 +202,10 @@ p {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+
+                h1 {
+                    color: var(--brown);
+                }
 
                 .link {
                     text-align: right;
@@ -219,6 +223,20 @@ p {
                 margin: 5px 3px;
                 color: var(--white);
                 width: 100%;
+                text-decoration: none;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .login1 {
+        .box {
+            .row {
+                .content {
+                    padding: 10px;
+                }
             }
         }
     }

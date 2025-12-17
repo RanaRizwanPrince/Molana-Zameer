@@ -28,14 +28,14 @@ const Login = () => {
                             <div className="content">
                                 {isSignup ? (
                                     <>
-                                        <h2>Creat Account</h2>
+                                        <h1>Creat Account</h1>
                                         <p>Join our family!   Creating your account is quick and easy. Get ready to unlock a personalized experience designed just for you. Let's get started! </p>
                                         <input type="text" placeholder='Enter Name' className='my-2 form-control' value={name} onChange={(e) => setName(e.target.value)} />
                                         <input type="email" placeholder='Enter Email' className='my-2 form-control' value={email} onChange={(e) => setEmail(e.target.value)} />
                                         <input type="password" placeholder='Enter Password' className='my-2 form-control' value={password} onChange={(e) => setPassword(e.target.value)} />
                                         <div className="d-flex">
                                             <button onClick={handleSignup} className='butn'>Sign Up</button>
-                                            <button onClick={() => setIsSignup(false)} className='butn'>Go to Login</button>
+                                            <button onClick={() => setIsSignup(false)} className='butn'>Login</button>
                                         </div>
                                     </>) : (
                                     <>
@@ -46,14 +46,14 @@ const Login = () => {
                                         <NavLink className="link" to="">Forget Password</NavLink><br />
                                         <div className="d-flex">
                                             <NavLink to="/Dashboard" className='butn'>Login</NavLink >
-                                            <button onClick={() => setIsSignup(true)} className='butn'>Go to Sign Up</button>
+                                            <button onClick={() => setIsSignup(true)} className='butn'>Sign Up</button>
                                         </div>
                                     </>
                                 )}
                             </div>
                         </div>
-                        <div className="col-lg-6 d-flex align-items-stretch">
-                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/75fde0180462827.650b17265ad4c.png" alt="IMAGE" className="img-fluid" />
+                        <div className="col-lg-6 d-flex align-items-stretch d-none d-sm-block">
+                            <img src="https://thumbs.dreamstime.com/b/login-icon-button-vector-illustration-isolated-white-background-126999474.jpg" alt="IMAGE" className="img-fluid" />
                         </div>
                     </div>
                 </div>

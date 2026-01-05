@@ -8,6 +8,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Blogs from "./Pages/Blogs";
 import Libriri from "./Pages/Libriri";
 import Biogarafi from "./Pages/Biogarafi";
 import Bazam_Zameer from "./Pages/Bazam_Zameer";
@@ -64,6 +65,7 @@ function App() {
         <Route path="Login" element={<Login />} />
         <Route index path='/' element={<Layout><Home /></Layout>} />
         <Route exact path='/About' element={<Layout><About /></Layout>} />
+        <Route path="/Blogs" element={<Layout><Blogs /></Layout>} />
         <Route path='*' element={<Layout><NotFound /></Layout>} />
         <Route path='/Libriri' element={<Layout><Libriri /></Layout>} />
         <Route path='/Bazam_Zameer' element={<Layout><Bazam_Zameer /></Layout>} />

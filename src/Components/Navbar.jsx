@@ -33,7 +33,7 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
                         <NavLink className="navbar-brand" to="/" onClick={closeNavbar}>
-                            <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" alt="Logo" />
+                            <img src="https://ik.imagekit.io/hmdcfponi/Logo's/Logo?updatedAt=1764926876354" alt="Logo" />
                         </NavLink>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <img src="https://ik.imagekit.io/hmdcfponi/toggle2?updatedAt=1758708124291" alt="Navbar Toggle" />
@@ -89,6 +89,7 @@ const Navbar = () => {
                     <NavLink className="nav-link" to="/Team" onClick={closeNavbar}>Zameer Team</NavLink><hr />
                     <NavLink className="nav-link" to="/Pod_Cast" onClick={closeNavbar}>Zameer Pod Cast</NavLink><hr />
                     <NavLink className="nav-link" to="/Biogarafi" onClick={closeNavbar}>Zameer Biogarafi</NavLink><hr />
+                    <NavLink className="nav-link" to="/Blogs" onClick={closeNavbar}>Zameer Blogs</NavLink><hr />
                 </div>
             </div>
         </>

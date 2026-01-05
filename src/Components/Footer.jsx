@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-4 col-md-4 my-3">
-                            <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" alt="Footer Logo" className='img-fluid' data-aos="flip-left" />
+                            <img src="https://ik.imagekit.io/hmdcfponi/Logo's/Logo?updatedAt=1764926876354" alt="Footer Logo" className='img-fluid' data-aos="flip-left" />
                             <p data-aos="fade-up">Discover the essence of faith and community at Siraj Islamic Center. We are dedicated to nurturing spiritual growth, fostering unity, and providing meaningful services for all. Guided by the Qur’an and Sunnah, we strive to inspire, educate, and connect hearts.</p>
                             <div className="icon" data-aos="fade-up">
                                 <NavLink target='_blank' className="link" to="https://www.facebook.com/molanazameer2025"><FaFacebook /></NavLink>
@@ -38,7 +38,7 @@ const Footer = () => {
                             <NavLink className="link" to="" data-aos="fade-up">✔ Zameer Libriri</NavLink> <br />
                             <NavLink className="link" to="" data-aos="fade-up">✔ Bazam Zameer</NavLink> <br />
                             <NavLink className="link" to="" data-aos="fade-up">✔ Biogarafi</NavLink> <br />
-                            <NavLink className="link" to="" data-aos="fade-up">✔ Blogs</NavLink> <br />
+                            <NavLink className="link" to="/Blogs" data-aos="fade-up">✔ Blogs</NavLink> <br />
                             <NavLink className="link" to="" data-aos="fade-up">✔ Pod Cast</NavLink><br />
                             <NavLink className="link" to="" data-aos="fade-up">✔ Team</NavLink><br />
                             <NavLink className="link" to="" data-aos="fade-up">✔ Contact Us</NavLink>

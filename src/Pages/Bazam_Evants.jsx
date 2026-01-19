@@ -23,17 +23,17 @@ const Bazam_Evants = () => {
     ];
     const Zameer_Awards = [
         {
-            img: "https://dummyimage.com/600x600/000/fff&text=Conference+Coming+Soon",
+            img: "https://ik.imagekit.io/hmdcfponi/Conferences/2?updatedAt=1765191448137",
         },
     ];
     const Announcements = [
         {
-            img: "https://dummyimage.com/600x600/000/fff&text=Conference+Coming+Soon",
+            img: "https://ik.imagekit.io/hmdcfponi/Conferences/3?updatedAt=1765196033174",
         },
     ];
     const News = [
         {
-            img: "https://ik.imagekit.io/hmdcfponi/13?updatedAt=1765188116906",
+            img: "https://ik.imagekit.io/hmdcfponi/Conferences/0?updatedAt=1768386681953",
         },
     ];
     const [selectedData, setSelectedData] = useState("");

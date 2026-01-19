@@ -683,10 +683,36 @@ p {
 }
 
 .Bazam_Zameer3 {
-    padding: 50px 0px;
+    .content {
+        background-color: var(--brown);
+        padding: 20px;
+        border-radius: 10px;
+        color: var(--white);
+        margin: 10px 0px;
 
-    h1 {
-        color: var(--brown);
+        .card-body {
+            h1 {
+                color: var(--brown);
+            }
+
+            .box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .link {
+                    background-color: var(--brown);
+                    width: 35px;
+                    height: 35px;
+                    margin: 1px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    color: var(--white);
+                }
+            }
+        }
     }
 }
 
@@ -1283,6 +1309,75 @@ p {
         h1 {
             color: var(--white);
             text-transform: uppercase;
+        }
+    }
+}
+
+.blogs1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("https://enews.hamariweb.com/wp-content/uploads/2023/12/327440458_913890006715598_5538819289840092146_n.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 60px;
+    height: 70vh;
+    color: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blogs2 {
+    .content-box {
+        background-color: var(--brown);
+        padding: 30px;
+        margin: 20px 0px;
+        border-radius: 10px;
+
+        h1 {
+            color: var(--white);
+        }
+    }
+
+    .btn {
+        color: var(--white);
+        text-transform: uppercase;
+        background-color: var(--brown);
+        width: 100%;
+
+        &:hover {
+            background-color: var(--black);
+            color: var(--brown);
+        }
+    }
+}
+
+.blogdetails {
+    .rich-text h2 {
+        color: var(--brown);
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .rich-text p {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #444;
+    }
+
+    .btn {
+        color: var(--white);
+        text-transform: uppercase;
+        font-weight: 500;
+        background-color: var(--brown);
+        width: 100%;
+        margin: 40px 0px;
+
+        &:hover {
+            background-color: var(--black);
+            color: var(--brown);
         }
     }
 }

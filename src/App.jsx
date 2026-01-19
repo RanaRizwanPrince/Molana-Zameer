@@ -9,8 +9,9 @@ import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Blogs from "./Pages/Blogs";
+import BlogDetail from "./Pages/BlogDetail";
 import Libriri from "./Pages/Libriri";
-import Biogarafi from "./Pages/Biogarafi";
+import Biography from "./Pages/Biography";
 import Bazam_Zameer from "./Pages/Bazam_Zameer";
 import Pod_Cast from "./Pages/Pod_Cast";
 import Team from "./Pages/Team";
@@ -66,10 +67,11 @@ function App() {
         <Route index path='/' element={<Layout><Home /></Layout>} />
         <Route exact path='/About' element={<Layout><About /></Layout>} />
         <Route path="/Blogs" element={<Layout><Blogs /></Layout>} />
+        <Route path="/blog/:id" element={<Layout><BlogDetail /></Layout>} />
         <Route path='*' element={<Layout><NotFound /></Layout>} />
         <Route path='/Libriri' element={<Layout><Libriri /></Layout>} />
         <Route path='/Bazam_Zameer' element={<Layout><Bazam_Zameer /></Layout>} />
-        <Route path='/Biogarafi' element={<Layout><Biogarafi /></Layout>} />
+        <Route path='/Biography' element={<Layout><Biography /></Layout>} />
         <Route path='/Pod_Cast' element={<Layout><Pod_Cast /></Layout>} />
         <Route path='/Team' element={<Layout><Team /></Layout>} />
         <Route path="/Contact" element={<Layout><Contact /></Layout>} />

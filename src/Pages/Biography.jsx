@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-const Biogarafi = () => {
+const Biography = () => {
     useEffect(() => {
         document.title = 'Biography | Molana Zameer – The Life and Journey of an Islamic Scholar';
         const metaDescription = document.querySelector('meta[name="description"]');
@@ -120,4 +120,4 @@ const Biogarafi = () => {
         </>
     )
 }
-export default Biogarafi
+export default Biography

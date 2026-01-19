@@ -32,7 +32,7 @@ const Home = () => {
             <section className="head">
                 <div className="container-fluid">
                     <div className="col-lg-8 offset-lg-2">
-                        <img src="https://ik.imagekit.io/hmdcfponi/Logo?updatedAt=1758266481774" className='img-fluid' alt="Main Logo" />
+                        <img src="https://ik.imagekit.io/hmdcfponi/Logo's/Logo?updatedAt=1764926876354" className='img-fluid' alt="Main Logo" />
                         <img src="https://ik.imagekit.io/hmdcfponi/Home/banner-ayat?updatedAt=1758795387573" alt="Banner Ayat" className='img-fluid' />
                         <p className='lead'>Today, amidst the noise of the decline, division and anxiety of the Ummah, we are hearing a voice again — the voice that arose from the solitude of the Maltese prison, the voice that came from the depths of the heart of Sheikh-ul-Hind Maulana Mahmud-ul-Hasan. This is the voice that reminds us that the cure for the Ummah does not lie in the noise of any slogan, any government or any movement, but in the light of the Quran and in the relationship of mutual love.</p>
                     </div>

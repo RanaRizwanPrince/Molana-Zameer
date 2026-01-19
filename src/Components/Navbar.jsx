@@ -88,7 +88,7 @@ const Navbar = () => {
                     <hr />
                     <NavLink className="nav-link" to="/Team" onClick={closeNavbar}>Zameer Team</NavLink><hr />
                     <NavLink className="nav-link" to="/Pod_Cast" onClick={closeNavbar}>Zameer Pod Cast</NavLink><hr />
-                    <NavLink className="nav-link" to="/Biogarafi" onClick={closeNavbar}>Zameer Biogarafi</NavLink><hr />
+                    <NavLink className="nav-link" to="/Biography" onClick={closeNavbar}>Zameer Biography </NavLink><hr />
                     <NavLink className="nav-link" to="/Blogs" onClick={closeNavbar}>Zameer Blogs</NavLink><hr />
                 </div>
             </div>

@@ -27,11 +27,11 @@ const Team = () => {
             <section className="team2">
                 <div className="container-fluid">
                     <h1>Our Professional Team</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi odio quam laudantium ullam optio esse ut sapiente fuga aliquam non illum sed a, sint quod deserunt unde dignissimos quis aperiam repudiandae magnam accusamus molestiae rerum! Repellat, doloribus, velit qui eligendi sunt laudantium similique exercitationem cum earum sed facilis voluptatibus eveniet illo. Qui corrupti quos.</p>
+                    <p>Our professional team consists of skilled, experienced, and dedicated experts who work with passion and commitment. We focus on quality, creativity, and client satisfaction to deliver outstanding results for every project.</p>
                     <div className="row">
                         {Teamsection.map((data, index) => (
                             <>
-                                <div key={index} className="col-lg-4 col-md-6 my-2 d-flex align-items-stretch">
+                                <div key={index} className="col-lg-6 my-2 d-flex align-items-stretch">
                                     <div class="card mb-3">
                                         <img src={data.img} class="img-fluid img-thumbnail" />
                                         <div class="card-body">
